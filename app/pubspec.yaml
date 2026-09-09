@@ -1,0 +1,37 @@
+name: gorodovye
+description: «Городовые» — краеведческое приложение-карта Москвы.
+publish_to: none
+version: 0.1.0
+
+environment:
+  # Нижняя граница задана плагином карт: yandex_maps_mapkit требует Flutter >= 3.29.
+  sdk: ">=3.1.0 <4.0.0"
+  flutter: ">=3.29.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: false
+
+  # Гарнитуры из ds/foundation.md, обе под OFL (лицензии лежат рядом с файлами).
+  #
+  # Onest в Google Fonts существует только вариативным шрифтом: статических
+  # начертаний там нет вовсе. Поэтому файл один, а вес задаётся не выбором
+  # файла, а осью `wght` — см. `fontVariations` в lib/ds/tokens/typography.dart.
+  # Объявить один и тот же файл трижды с разными `weight` было бы обманом:
+  # Flutter взял бы его как есть и все три веса отрисовал одинаково.
+  fonts:
+    - family: Dela Gothic One
+      fonts:
+        - asset: assets/fonts/DelaGothicOne-Regular.ttf
+          weight: 400
+    - family: Onest
+      fonts:
+        - asset: assets/fonts/Onest-Variable.ttf
