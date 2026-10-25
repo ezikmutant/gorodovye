@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Рисунки на деревьях Москвы</name>
+<description>Официальная карта ПаркАрт, рисунки в Филях и метки OpenStreetMap. Зелёные — Мосприрода, фиолетовые — Фили, синие — рисунки по OSM, оранжевые — метки OSM, которые надо проверить, красные — найдены на месте.</description>
+<Style id="placemark-red"><IconStyle><color>ff2a2ac9</color><Icon><href>https://omaps.app/placemarks/placemark-red.png</href></Icon></IconStyle></Style>
+<Style id="placemark-green"><IconStyle><color>ff38783b</color><Icon><href>https://omaps.app/placemarks/placemark-green.png</href></Icon></IconStyle></Style>
+<Style id="placemark-purple"><IconStyle><color>ffb34c7a</color><Icon><href>https://omaps.app/placemarks/placemark-purple.png</href></Icon></IconStyle></Style>
+<Style id="placemark-blue"><IconStyle><color>ffae6a2c</color><Icon><href>https://omaps.app/placemarks/placemark-blue.png</href></Icon></IconStyle></Style>
+<Style id="placemark-orange"><IconStyle><color>ff0e66a2</color><Icon><href>https://omaps.app/placemarks/placemark-orange.png</href></Icon></IconStyle></Style>
+<Placemark><name>«Малиновый закат»</name><description>Лаврова Варвара Владимировна, 2022
+Хорошёво-Мнёвники
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.470776,55.780233</coordinates></Point></Placemark>
+<Placemark><name>«Дай пять еноту»</name><description>Игаева Наталья Евгеньевна, 2022
+Хорошёво-Мнёвники
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.470808,55.780328</coordinates></Point></Placemark>
+<Placemark><name>«Рыбий заплыв»</name><description>Дябина Владислава Николаевна, 2022
+Хорошёво-Мнёвники
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.470857,55.780468</coordinates></Point></Placemark>
+<Placemark><name>«Небо»</name><description>Чернова Надежда Владимировна, 2022
+Таганский район
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.649563,55.735516</coordinates></Point></Placemark>
+<Placemark><name>«Волк»</name><description>Морозова Екатерина, 2018
+Измайловский лесопарк
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.779414,55.785891</coordinates></Point></Placemark>
+<Placemark><name>«Мышонок и репка»</name><description>Фёдорова Мария Евгеньевна, 2022
+Кузьминки-Люблино
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.791397,55.687292</coordinates></Point></Placemark>
+<Placemark><name>«Беличье семейство»</name><description>Филосопова Оксана, 2020
+Кузьминки-Люблино
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.785511,55.695137</coordinates></Point></Placemark>
+<Placemark><name>«Чеширский кот»</name><description>Симакова Ирина, 2020
+Кузьминки-Люблино
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.799089,55.690111</coordinates></Point></Placemark>
+<Placemark><name>«Сказочный лес»</name><description>Чуваева Тамара, 2022
+Тушинский
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.4187448,55.8649724</coordinates></Point></Placemark>
+<Placemark><name>«Совенок»</name><description>Соловьева Арина, 2022
+Тушинский
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.4188521,55.8647492</coordinates></Point></Placemark>
+<Placemark><name>«Белка»</name><description>Соловьева Арина, 2022
+Тушинский
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.4184707,55.8647968</coordinates></Point></Placemark>
+<Placemark><name>«Лесная фея»</name><description>Соловьева Арина, 2022
+Тушинский
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.4188771,55.8650806</coordinates></Point></Placemark>
+<Placemark><name>«Архангельское-Тюриково»</name><description>Николюк Елена Васильевна, 2022
+Архангельское-Тюриково
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.541135,55.938888</coordinates></Point></Placemark>
+<Placemark><name>«Сова»</name><description>Мухаметжанова Анна, 2022
+Архангельское-Тюриково
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.54076,55.940357</coordinates></Point></Placemark>
+<Placemark><name>«Иволги»</name><description>Старинова Наталья, 2022
+Архангельское-Тюриково
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.54061,55.940405</coordinates></Point></Placemark>
+<Placemark><name>«Кит»</name><description>Андреева Екатерина Владимировна, 2022
+Место не подписано
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.602786,55.941012</coordinates></Point></Placemark>
+<Placemark><name>«Летучая мышь»</name><description>Белова Надежда, 2022
+Архангельское-Тюриково
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.548603,55.917299</coordinates></Point></Placemark>
+<Placemark><name>«Мышка в лесу»</name><description>Орлова Анна Дмитриевна, 2022
+Архангельское-Тюриково
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.548691,55.917449</coordinates></Point></Placemark>
+<Placemark><name>«Мать-Земля»</name><description>Морозова Ольга, 2022
+Архангельское-Тюриково
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.548743,55.917658</coordinates></Point></Placemark>
+<Placemark><name>«Сказочный лес»</name><description>Самохина Дина, 2021
+Место не подписано
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.652415,55.892848</coordinates></Point></Placemark>
+<Placemark><name>«Гусяш»</name><description>Морозова Ольга, 2021
+Лианозовский заказник
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.565565,55.90244</coordinates></Point></Placemark>
+<Placemark><name>«Рапунцель»</name><description>Морозова Ольга, 2021
+Лианозовский заказник
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.564998,55.900424</coordinates></Point></Placemark>
+<Placemark><name>«Пятачок»</name><description>Белова Надежда, 2021
+Алтуфьевский заказник
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.602462,55.899155</coordinates></Point></Placemark>
+<Placemark><name>«Винни-Пух»</name><description>Белова Надежда, 2021
+Алтуфьевский заказник
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.602526,55.899167</coordinates></Point></Placemark>
+<Placemark><name>«Ежик с зонтиком»</name><description>Михайлова Людмила, 2020
+Архангельское-Тюриково
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.550722,55.916828</coordinates></Point></Placemark>
+<Placemark><name>«Мышка на грибочке»</name><description>Михайлова Людмила, 2020
+Архангельское-Тюриково
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.548731,55.917696</coordinates></Point></Placemark>
+<Placemark><name>«Дорога в лето»</name><description>Пугачева Татьяна Афанасьевна, 2022
+Тушинский
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.424107,55.86489</coordinates></Point></Placemark>
+<Placemark><name>«Горный пейзаж»</name><description>Оздоева Луисана Хамзатовна, 2022
+Тушинский
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.418405,55.864771</coordinates></Point></Placemark>
+<Placemark><name>«Ополовники»</name><description>Лебедева Ирина Дмитриевна, 2022
+Тушинский
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.423753,55.865153</coordinates></Point></Placemark>
+<Placemark><name>«Улитка на грибе»</name><description>Мясищева Дарья Викторовна, 2022
+Тушинский
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.42419,55.864804</coordinates></Point></Placemark>
+<Placemark><name>«Библиотека чудес»</name><description>Орлова Анна Дмитриевна, 2022
+Кузьминки-Люблино
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.776975,55.693705</coordinates></Point></Placemark>
+<Placemark><name>«Путешествие фиолетовой улитки по волшебному лесу»</name><description>Фёдорова Мария Евгеньевна, 2022
+Кузьминки-Люблино
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.78938,55.693715</coordinates></Point></Placemark>
+<Placemark><name>«Мышиный замок»</name><description>Симакова Ирина, 2020
+Кузьминки-Люблино
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.788389,55.69324</coordinates></Point></Placemark>
+<Placemark><name>«Следы на снегу»</name><description>Симакова Ирина, 2020
+Кузьминки-Люблино
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.788389,55.69324</coordinates></Point></Placemark>
+<Placemark><name>«Звёзды»</name><description>Симакова Ирина, 2020
+Кузьминки-Люблино
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.799157,55.688947</coordinates></Point></Placemark>
+<Placemark><name>«Алиса в стране чудес»</name><description>Симакова Ирина, 2020
+Кузьминки-Люблино
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.791854,55.687245</coordinates></Point></Placemark>
+<Placemark><name>«Кот»</name><description>Бирюлёвский дендропарк
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.674861,55.598853</coordinates></Point></Placemark>
+<Placemark><name>«Абстракция»</name><description>Бирюлёвский дендропарк
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.674829,55.5989</coordinates></Point></Placemark>
+<Placemark><name>«Радужное небо»</name><description>Бирюлёвский дендропарк
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.674848,55.598936</coordinates></Point></Placemark>
+<Placemark><name>«Хорошее настроение»</name><description>Бирюлёвский дендропарк
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.674891,55.59846</coordinates></Point></Placemark>
+<Placemark><name>«Раскрасим вместе»</name><description>Бирюлёвский дендропарк
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.674752,55.597666</coordinates></Point></Placemark>
+<Placemark><name>«Рыбка»</name><description>Бирюлёвский дендропарк
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.676774,55.593251</coordinates></Point></Placemark>
+<Placemark><name>«Птица»</name><description>Бирюлёвский дендропарк
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.676687,55.593351</coordinates></Point></Placemark>
+<Placemark><name>«Пчёлки»</name><description>Бирюлёвский дендропарк
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.67648,55.593348</coordinates></Point></Placemark>
+<Placemark><name>«Рыбка и зебра»</name><description>Бирюлёвский дендропарк
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.676879,55.593351</coordinates></Point></Placemark>
+<Placemark><name>«Грибочек»</name><description>ГБУ ЦСПР им. Г.И.Россолимо, 2022
+Измайловский лесопарк
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.831616,55.800092</coordinates></Point></Placemark>
+<Placemark><name>«Рыбы-клоуны»</name><description>Морозова Екатерина, 2022
+Измайловский лесопарк
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.792952,55.784452</coordinates></Point></Placemark>
+<Placemark><name>«Пейзаж с горами, планетами, рекой, лесом и домиком»</name><description>Хлынина Евгения, 2021
+Измайловский лесопарк
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.783203,55.772766</coordinates></Point></Placemark>
+<Placemark><name>«Беличья семейка»</name><description>Меньшова Елена, 2021
+Измайловский лесопарк
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.794434,55.787841</coordinates></Point></Placemark>
+<Placemark><name>«Египетский кот»</name><description>Трифонова Ольга, 2021
+Измайловский лесопарк
+Найден на месте 24 октября 2026 года. Точка с места — в 11 м от официальной; на этом же дереве стоит метка OpenStreetMap без названия (тип «граффити»).
+Найден на месте
+OSM: https://www.openstreetmap.org/node/12713903162</description><styleUrl>#placemark-red</styleUrl><Point><coordinates>37.77525,55.77358</coordinates></Point></Placemark>
+<Placemark><name>«Драконы»</name><description>Морозова Екатерина, 2021
+Измайловский лесопарк
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.797991,55.785588</coordinates></Point></Placemark>
+<Placemark><name>«Маленький принц»</name><description>Хлынина Евгения, 2021
+Измайловский лесопарк
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.774976,55.773873</coordinates></Point></Placemark>
+<Placemark><name>«Снусмумрик»</name><description>Хлынина Евгения, 2020
+Измайловский лесопарк
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.783185,55.773057</coordinates></Point></Placemark>
+<Placemark><name>«Рыжий котик»</name><description>Рунова Татьяна, 2020
+Измайловский лесопарк
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.784805,55.78542</coordinates></Point></Placemark>
+<Placemark><name>«Ночной дозор»</name><description>Маслова Ирина, 2020
+Измайловский лесопарк
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.784844,55.784187</coordinates></Point></Placemark>
+<Placemark><name>«Лесовичок»</name><description>Филосопова Оксана, 2020
+Измайловский лесопарк
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.804482,55.776854</coordinates></Point></Placemark>
+<Placemark><name>«Дона с собачкой»</name><description>Скворцова Наталья, 2019
+Измайловский лесопарк
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.807998,55.786021</coordinates></Point></Placemark>
+<Placemark><name>«Котики»</name><description>Морозова Екатерина, 2019
+Измайловский лесопарк
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.779643,55.787567</coordinates></Point></Placemark>
+<Placemark><name>«Тоторо»</name><description>Хлынина Евгения, 2019
+Измайловский лесопарк
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.774505,55.775438</coordinates></Point></Placemark>
+<Placemark><name>«Мумий тролль»</name><description>Хлынина Евгения, 2019
+Измайловский лесопарк
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.773025,55.77369</coordinates></Point></Placemark>
+<Placemark><name>«Девочка на шаре»</name><description>Ростова Галина, 2019
+Измайловский лесопарк
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.793203,55.786427</coordinates></Point></Placemark>
+<Placemark><name>«Заходи, если шо»</name><description>Ростова Галина, 2019
+Измайловский лесопарк
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.783562,55.787166</coordinates></Point></Placemark>
+<Placemark><name>«Белка из ледникового периода»</name><description>Шовкопляс Виктория, 2019
+Измайловский лесопарк
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.794219,55.785785</coordinates></Point></Placemark>
+<Placemark><name>«Совиные глаза»</name><description>Красотина Вероника, 2019
+Измайловский лесопарк
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.779673,55.787582</coordinates></Point></Placemark>
+<Placemark><name>«Ушастики»</name><description>Пернатые+, 2019
+Измайловский лесопарк
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.783241,55.78516</coordinates></Point></Placemark>
+<Placemark><name>«Ополовник»</name><description>Пернатые+, 2018
+Измайловский лесопарк
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.788584,55.785338</coordinates></Point></Placemark>
+<Placemark><name>«Дракон»</name><description>Пернатые+, 2019
+Измайловский лесопарк
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.783628,55.78473</coordinates></Point></Placemark>
+<Placemark><name>«Водопад на Косинском»</name><description>Филипова Анастасия, 2019
+Измайловский лесопарк
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.798141,55.785452</coordinates></Point></Placemark>
+<Placemark><name>«Малахитовые волны»</name><description>Алена, 2019
+Измайловский лесопарк
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.793527,55.784356</coordinates></Point></Placemark>
+<Placemark><name>«Филин»</name><description>Пернатые+, 2018
+Измайловский лесопарк
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.785241,55.785666</coordinates></Point></Placemark>
+<Placemark><name>«Ежик»</name><description>Пернатые+, 2018
+Измайловский лесопарк
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.782507,55.785785</coordinates></Point></Placemark>
+<Placemark><name>«Снегирь»</name><description>Быченкова Марта, 2018
+Измайловский лесопарк
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.794164,55.787829</coordinates></Point></Placemark>
+<Placemark><name>«Довольный лось»</name><description>Юдина Елена, 2018
+Измайловский лесопарк
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.794239,55.7875</coordinates></Point></Placemark>
+<Placemark><name>«Шахматная доска»</name><description>Морозова Екатерина, 2018
+Измайловский лесопарк
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.785669,55.78531</coordinates></Point></Placemark>
+<Placemark><name>«Павлины»</name><description>Демид Екатерина, 2018
+Измайловский лесопарк
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.794273,55.78747</coordinates></Point></Placemark>
+<Placemark><name>«Маленький принц»</name><description>Солодова Дарья, 2018
+Измайловский лесопарк
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.793979,55.787669</coordinates></Point></Placemark>
+<Placemark><name>«Мама совушка»</name><description>Загвоздкина Анна и Ковалева Анастасия, 2018
+Измайловский лесопарк
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.794305,55.787723</coordinates></Point></Placemark>
+<Placemark><name>«Рыжий пират»</name><description>Пернатые+, 2018
+Измайловский лесопарк
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.794209,55.787433</coordinates></Point></Placemark>
+<Placemark><name>«Ласка»</name><description>Хлынина Евгения, 2017
+Измайловский лесопарк
+В ранних версиях карты (июнь и август 2022) «Ласка» стояла в 2 км западнее, у «Водопада»: 55.774569, 37.773684.
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.804446,55.776471</coordinates></Point></Placemark>
+<Placemark><name>«Мышонок»</name><description>Хлынина Евгения, 2017
+Измайловский лесопарк
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.804096,55.776695</coordinates></Point></Placemark>
+<Placemark><name>«Сова»</name><description>Хлынина Евгения, 2017
+Измайловский лесопарк
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.804784,55.77673</coordinates></Point></Placemark>
+<Placemark><name>«Водопад»</name><description>Хлынина Евгения, 2017
+Измайловский лесопарк
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.773527,55.774522</coordinates></Point></Placemark>
+<Placemark><name>«Дятел»</name><description>Хлынина Евгения, 2017
+Измайловский лесопарк
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.774074,55.773361</coordinates></Point></Placemark>
+<Placemark><name>«Эльфы»</name><description>Хлынина Евгения, 2017
+Измайловский лесопарк
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.773323,55.774201</coordinates></Point></Placemark>
+<Placemark><name>«Другая жизнь»</name><description>Ковалева Анастасия, 2016
+Измайловский лесопарк
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.782913,55.777436</coordinates></Point></Placemark>
+<Placemark><name>«Белочка с орехом»</name><description>Хлынина Евгения, 2017
+Измайловский лесопарк
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.804436,55.777026</coordinates></Point></Placemark>
+<Placemark><name>«Ежик в тумане»</name><description>Хлынина Евгения, 2016
+Измайловский лесопарк
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.782911,55.778069</coordinates></Point></Placemark>
+<Placemark><name>«Краски солнца»</name><description>Шебанова Ульяна, 2022
+Место не подписано
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.498646,55.637442</coordinates></Point></Placemark>
+<Placemark><name>«Морская глубина»</name><description>Шебанова Ульяна, 2022
+Место не подписано
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.492883,55.634453</coordinates></Point></Placemark>
+<Placemark><name>«Библиотека чудес»</name><description>Орлова Анна Дмитриевна, 2022
+Кузьминки-Люблино
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.779675,55.693705</coordinates></Point></Placemark>
+<Placemark><name>«Пчелка на ромашке»</name><description>Шингаркин Дмитрий, 2022
+Битцевский лес
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.545741,55.597599</coordinates></Point></Placemark>
+<Placemark><name>«Утенок на пруду»</name><description>Кожевникова Екатерина, 2022
+Битцевский лес
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.54574,55.597597</coordinates></Point></Placemark>
+<Placemark><name>«Обитатели глубин»</name><description>Кожевникова Екатерина, 2022
+Битцевский лес
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.55123,55.597668</coordinates></Point></Placemark>
+<Placemark><name>«Лебединое озеро»</name><description>Кожевникова Екатерина, 2022
+Битцевский лес
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.552204,55.598316</coordinates></Point></Placemark>
+<Placemark><name>«Маяк у воды»</name><description>Кожевникова Екатерина, 2022
+Битцевский лес
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.562106,55.602057</coordinates></Point></Placemark>
+<Placemark><name>«Редкие красоты Москвы»</name><description>Кущенко Олеся Олеговна, 2022
+Хамовники
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.577622,55.718498</coordinates></Point></Placemark>
+<Placemark><name>«Мышка»</name><description>Орлова Анна Дмитриевна, 2022
+Хамовники
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.577607,55.718464</coordinates></Point></Placemark>
+<Placemark><name>«Зимний пейзаж»</name><description>Николюк Елена Васильевна, 2022
+Хамовники
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.577612,55.718492</coordinates></Point></Placemark>
+<Placemark><name>«Белка-летяга»</name><description>Худяева Ольга Олеговна, 2022
+Хамовники
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.57761,55.718494</coordinates></Point></Placemark>
+<Placemark><name>«Горы»</name><description>Зименкова Мария Вячеславовна, 2022
+Таганский район
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.649159,55.735561</coordinates></Point></Placemark>
+<Placemark><name>«Закат»</name><description>Чернова Надежда Владимировна, 2022
+Таганский район
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.64924,55.735415</coordinates></Point></Placemark>
+<Placemark><name>«Северное сияние»</name><description>Хижниченко Татьяна, 2022
+Место не подписано
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.454499,55.82894</coordinates></Point></Placemark>
+<Placemark><name>«Колибри»</name><description>Елизарова Вероника, 2022
+Место не подписано
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.45475,55.828997</coordinates></Point></Placemark>
+<Placemark><name>«Крокус»</name><description>Кожан Валерия, 2022
+Место не подписано
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.454408,55.82903</coordinates></Point></Placemark>
+<Placemark><name>«Радужный дракон»</name><description>Коновалова Анна, 2022
+Место не подписано
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.454499,55.829075</coordinates></Point></Placemark>
+<Placemark><name>«Травянистый рай»</name><description>Лебедева Ирина, 2022
+Девичье поле
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.577726,55.736368</coordinates></Point></Placemark>
+<Placemark><name>«Кот и сова»</name><description>Коваленко Анна, 2022
+Девичье поле
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.577846,55.736171</coordinates></Point></Placemark>
+<Placemark><name>«Осенняя красавица»</name><description>Лебедева Ульяна, 2022
+Девичье поле
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.577752,55.736247</coordinates></Point></Placemark>
+<Placemark><name>«Лиса на лугу»</name><description>Мальцева Дарья, 2022
+Девичье поле
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.577597,55.736348</coordinates></Point></Placemark>
+<Placemark><name>«Портрет А.С. Пушкина»</name><description>Литвиненко Александра, 2022
+Улица Туристская, 20 к1
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.421735,55.85678</coordinates></Point></Placemark>
+<Placemark><name>«Избушка на курьих ножках»</name><description>Кожевникова Екатерина, 2022
+Улица Туристская, 20 к1
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.421734,55.85678</coordinates></Point></Placemark>
+<Placemark><name>«Лисята»</name><description>Макарова Екатерина, 2022
+Улица Туристская, 20 к1
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.421733,55.85678</coordinates></Point></Placemark>
+<Placemark><name>«Колобок»</name><description>Шинкарева Елизавета, 2022
+Улица Туристская, 20 к1
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.421732,55.85678</coordinates></Point></Placemark>
+<Placemark><name>«Матрешка»</name><description>Сивец Дарья, 2022
+Улица Туристская, 20 к1
+Официальная карта ПаркАрт</description><styleUrl>#placemark-green</styleUrl><Point><coordinates>37.421731,55.85678</coordinates></Point></Placemark>
+<Placemark><name>Рисунок без названия</name><description>Марина Кочнева
+Фили
+Карта Филей</description><styleUrl>#placemark-purple</styleUrl><Point><coordinates>37.4858368,55.744868</coordinates></Point></Placemark>
+<Placemark><name>Рисунок без названия</name><description>Марина Кочнева
+Фили
+Карта Филей</description><styleUrl>#placemark-purple</styleUrl><Point><coordinates>37.4894282,55.7484869</coordinates></Point></Placemark>
+<Placemark><name>Рисунок без названия</name><description>Марина Кочнева
+Фили
+Карта Филей</description><styleUrl>#placemark-purple</styleUrl><Point><coordinates>37.4909195,55.7495859</coordinates></Point></Placemark>
+<Placemark><name>Рисунок без названия</name><description>Марина Кочнева
+Фили
+Карта Филей</description><styleUrl>#placemark-purple</styleUrl><Point><coordinates>37.4807547,55.7495799</coordinates></Point></Placemark>
+<Placemark><name>Рисунок без названия</name><description>Марина Кочнева
+Фили
+Карта Филей</description><styleUrl>#placemark-purple</styleUrl><Point><coordinates>37.480263,55.7494208</coordinates></Point></Placemark>
+<Placemark><name>«Мэри Поппинс»</name><description>Марина Кочнева
+Фили
+Название — из метки OpenStreetMap в 12 м.
+Карта Филей
+OSM: https://www.openstreetmap.org/node/11867936234</description><styleUrl>#placemark-purple</styleUrl><Point><coordinates>37.4780293,55.7502664</coordinates></Point></Placemark>
+<Placemark><name>«Ведьмина служба доставки»</name><description>Марина Кочнева
+Фили
+Название — из метки OpenStreetMap в 25 м.
+Карта Филей
+OSM: https://www.openstreetmap.org/node/11837687812</description><styleUrl>#placemark-purple</styleUrl><Point><coordinates>37.4762376,55.7473707</coordinates></Point></Placemark>
+<Placemark><name>Рисунок без названия</name><description>Марина Кочнева
+Фили
+Карта Филей</description><styleUrl>#placemark-purple</styleUrl><Point><coordinates>37.4760659,55.7460784</coordinates></Point></Placemark>
+<Placemark><name>Рисунок без названия</name><description>Марина Кочнева
+Фили
+Карта Филей</description><styleUrl>#placemark-purple</styleUrl><Point><coordinates>37.4764522,55.7459093</coordinates></Point></Placemark>
+<Placemark><name>Рисунок без названия</name><description>Марина Кочнева
+Фили
+Карта Филей</description><styleUrl>#placemark-purple</styleUrl><Point><coordinates>37.486075,55.7449312</coordinates></Point></Placemark>
+<Placemark><name>Рисунок без названия</name><description>Марина Кочнева
+Фили
+Карта Филей</description><styleUrl>#placemark-purple</styleUrl><Point><coordinates>37.4863164,55.7449927</coordinates></Point></Placemark>
+<Placemark><name>Рисунок без названия</name><description>Марина Кочнева
+Фили
+Карта Филей</description><styleUrl>#placemark-purple</styleUrl><Point><coordinates>37.4865524,55.745056</coordinates></Point></Placemark>
+<Placemark><name>Рисунок без названия</name><description>Марина Кочнева
+Фили
+Карта Филей</description><styleUrl>#placemark-purple</styleUrl><Point><coordinates>37.4912815,55.7484443</coordinates></Point></Placemark>
+<Placemark><name>Рисунок без названия</name><description>Марина Кочнева
+Фили
+Карта Филей</description><styleUrl>#placemark-purple</styleUrl><Point><coordinates>37.486805,55.7451472</coordinates></Point></Placemark>
+<Placemark><name>Рисунок без названия</name><description>Марина Кочнева
+Фили
+Карта Филей</description><styleUrl>#placemark-purple</styleUrl><Point><coordinates>37.4890258,55.7473574</coordinates></Point></Placemark>
+<Placemark><name>Рисунок без названия</name><description>Марина Кочнева
+Фили
+Карта Филей</description><styleUrl>#placemark-purple</styleUrl><Point><coordinates>37.4587621,55.7381305</coordinates></Point></Placemark>
+<Placemark><name>«Кролик и Иа-Иа»</name><description>Битцевский лес
+В OSM отмечен как рисунок на дереве.
+Рисунок по OSM
+OSM: https://www.openstreetmap.org/node/13082054909</description><styleUrl>#placemark-blue</styleUrl><Point><coordinates>37.5478017,55.5972288</coordinates></Point></Placemark>
+<Placemark><name>«Пятачок»</name><description>Битцевский лес
+В OSM отмечен как рисунок на дереве.
+Рисунок по OSM
+OSM: https://www.openstreetmap.org/node/13082054910</description><styleUrl>#placemark-blue</styleUrl><Point><coordinates>37.5476936,55.5972389</coordinates></Point></Placemark>
+<Placemark><name>«Снегири»</name><description>Лосиный остров
+В OSM — картина «Снегири».
+Рисунок по OSM
+OSM: https://www.openstreetmap.org/node/13428601265</description><styleUrl>#placemark-blue</styleUrl><Point><coordinates>37.7213692,55.8607477</coordinates></Point></Placemark>
+<Placemark><name>«Пейзаж на пне»</name><description>Бирюлёвский дендропарк
+В OSM — рисунок на пне, май 2022.
+Рисунок по OSM
+OSM: https://www.openstreetmap.org/node/10023271692</description><styleUrl>#placemark-blue</styleUrl><Point><coordinates>37.68211,55.598425</coordinates></Point></Placemark>
+<Placemark><name>«Раскрашенные дупла»</name><description>Измайловский лесопарк
+В 6 м — «Пейзаж с горами, планетами, рекой, лесом и домиком» с официальной карты, скорее всего это он.
+Рисунок по OSM
+OSM: https://www.openstreetmap.org/node/12828482226</description><styleUrl>#placemark-blue</styleUrl><Point><coordinates>37.7832498,55.77272</coordinates></Point></Placemark>
+<Placemark><name>Метка «Дерево»</name><description>Лианозовский заказник
+Арт-объект без типа, в описании одно слово «Дерево». В 2023 году в заказнике рисовали Анастасия Трубицина и Ксения Шмонина.
+Метка OSM — проверить
+OSM: https://www.openstreetmap.org/node/8044691271</description><styleUrl>#placemark-orange</styleUrl><Point><coordinates>37.5651365,55.8999832</coordinates></Point></Placemark>
+<Placemark><name>Метка «Дерево»</name><description>Лианозовский заказник
+Арт-объект без типа, в описании одно слово «Дерево». В 2023 году в заказнике рисовали Анастасия Трубицина и Ксения Шмонина.
+Метка OSM — проверить
+OSM: https://www.openstreetmap.org/node/8044691272</description><styleUrl>#placemark-orange</styleUrl><Point><coordinates>37.5652143,55.900087</coordinates></Point></Placemark>
+<Placemark><name>Метка без подписи</name><description>Лианозовский заказник
+Арт-объект без единого тега. В 2023 году в заказнике рисовали Анастасия Трубицина и Ксения Шмонина.
+Метка OSM — проверить
+OSM: https://www.openstreetmap.org/node/8044691279</description><styleUrl>#placemark-orange</styleUrl><Point><coordinates>37.5657615,55.8996298</coordinates></Point></Placemark>
+<Placemark><name>Метка без подписи</name><description>Лианозовский заказник
+Арт-объект без единого тега. В 2023 году в заказнике рисовали Анастасия Трубицина и Ксения Шмонина.
+Метка OSM — проверить
+OSM: https://www.openstreetmap.org/node/8044691280</description><styleUrl>#placemark-orange</styleUrl><Point><coordinates>37.5659278,55.8994749</coordinates></Point></Placemark>
+<Placemark><name>Метка без подписи</name><description>Лианозовский заказник
+Арт-объект без единого тега. В 2023 году в заказнике рисовали Анастасия Трубицина и Ксения Шмонина.
+Метка OSM — проверить
+OSM: https://www.openstreetmap.org/node/8044691281</description><styleUrl>#placemark-orange</styleUrl><Point><coordinates>37.5660324,55.8995697</coordinates></Point></Placemark>
+<Placemark><name>Метка «граффити»</name><description>Измайловский лесопарк
+Тип «граффити», без названия. В 9 м — «Лесовичок», рядом рисунки Евгении Хлыниной 2017 года.
+Метка OSM — проверить
+OSM: https://www.openstreetmap.org/node/12774627443</description><styleUrl>#placemark-orange</styleUrl><Point><coordinates>37.8043789,55.7769145</coordinates></Point></Placemark>
+<Placemark><name>Метка без подписи</name><description>Измайловский лесопарк
+Арт-объект без единого тега, в ПКиО «Измайлово».
+Метка OSM — проверить
+OSM: https://www.openstreetmap.org/node/6522300262</description><styleUrl>#placemark-orange</styleUrl><Point><coordinates>37.7523454,55.7715898</coordinates></Point></Placemark>
+<Placemark><name>Метка «мурал»</name><description>Лесопарк «Кусково»
+В OSM тип «мурал», стоит в лесопарке.
+Метка OSM — проверить
+OSM: https://www.openstreetmap.org/node/11245448782</description><styleUrl>#placemark-orange</styleUrl><Point><coordinates>37.7974498,55.7365669</coordinates></Point></Placemark>
+<Placemark><name>Метка «мурал»</name><description>Лесопарк «Кусково»
+В OSM тип «мурал», стоит в лесопарке.
+Метка OSM — проверить
+OSM: https://www.openstreetmap.org/node/11245448783</description><styleUrl>#placemark-orange</styleUrl><Point><coordinates>37.7971043,55.736399</coordinates></Point></Placemark>
+<Placemark><name>Метка «мурал»</name><description>Лесопарк «Кусково»
+В OSM тип «мурал», стоит в лесопарке.
+Метка OSM — проверить
+OSM: https://www.openstreetmap.org/node/11245448784</description><styleUrl>#placemark-orange</styleUrl><Point><coordinates>37.7970484,55.7362644</coordinates></Point></Placemark>
+<Placemark><name>«Маг и грибы»</name><description>Тропарёвский лесопарк
+Арт-объект без типа, в описании «Маг и грибы».
+Метка OSM — проверить
+OSM: https://www.openstreetmap.org/node/11984987913</description><styleUrl>#placemark-orange</styleUrl><Point><coordinates>37.462986,55.6519583</coordinates></Point></Placemark>
+<Placemark><name>«Лицо»</name><description>Лосиный остров
+В OSM — деревянная скульптура на живом дереве. Скорее резьба, чем рисунок.
+Метка OSM — проверить
+OSM: https://www.openstreetmap.org/node/9167680212</description><styleUrl>#placemark-orange</styleUrl><Point><coordinates>37.6880287,55.8205506</coordinates></Point></Placemark>
+<Placemark><name>Метка без подписи</name><description>Парк Никулинской аллеи
+Арт-объект без единого тега.
+Метка OSM — проверить
+OSM: https://www.openstreetmap.org/node/8871991617</description><styleUrl>#placemark-orange</styleUrl><Point><coordinates>37.488775,55.6816888</coordinates></Point></Placemark>
+<Placemark><name>Метка без подписи</name><description>Пресненский парк
+Арт-объект без единого тега.
+Метка OSM — проверить
+OSM: https://www.openstreetmap.org/node/8880487541</description><styleUrl>#placemark-orange</styleUrl><Point><coordinates>37.5751492,55.7572085</coordinates></Point></Placemark>
+<Placemark><name>Метка без подписи</name><description>Парк Свиблово
+Арт-объект без названия, материал — дерево.
+Метка OSM — проверить
+OSM: https://www.openstreetmap.org/node/4938974501</description><styleUrl>#placemark-orange</styleUrl><Point><coordinates>37.6292785,55.8665349</coordinates></Point></Placemark>
+</Document>
+</kml>

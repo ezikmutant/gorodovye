@@ -1,0 +1,3308 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "id": "pa-001",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.470776,
+     55.780233
+    ]
+   },
+   "properties": {
+    "id": "pa-001",
+    "kind": "official",
+    "title": "Малиновый закат",
+    "author": "Лаврова Варвара Владимировна",
+    "year": "2022",
+    "place": "Хорошёво-Мнёвники",
+    "place_basis": "по положению точек и заголовку новости о семейном фестивале; адрес не подтверждён",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-002",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.470808,
+     55.780328
+    ]
+   },
+   "properties": {
+    "id": "pa-002",
+    "kind": "official",
+    "title": "Дай пять еноту",
+    "author": "Игаева Наталья Евгеньевна",
+    "year": "2022",
+    "place": "Хорошёво-Мнёвники",
+    "place_basis": "по положению точек и заголовку новости о семейном фестивале; адрес не подтверждён",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-003",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.470857,
+     55.780468
+    ]
+   },
+   "properties": {
+    "id": "pa-003",
+    "kind": "official",
+    "title": "Рыбий заплыв",
+    "author": "Дябина Владислава Николаевна",
+    "year": "2022",
+    "place": "Хорошёво-Мнёвники",
+    "place_basis": "по положению точек и заголовку новости о семейном фестивале; адрес не подтверждён",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-004",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.649563,
+     55.735516
+    ]
+   },
+   "properties": {
+    "id": "pa-004",
+    "kind": "official",
+    "title": "Небо",
+    "author": "Чернова Надежда Владимировна",
+    "year": "2022",
+    "place": "Таганский район",
+    "place_basis": "по положению точек; точное место не подтверждено",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-005",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.779414,
+     55.785891
+    ]
+   },
+   "properties": {
+    "id": "pa-005",
+    "kind": "official",
+    "title": "Волк",
+    "author": "Морозова Екатерина",
+    "year": "2018",
+    "place": "Измайловский лесопарк",
+    "place_basis": "ООПТ «Измайлово» по OSM; «Грибочек» и «Рыбы-клоуны» названы в пресс-релизе 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-006",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.791397,
+     55.687292
+    ]
+   },
+   "properties": {
+    "id": "pa-006",
+    "kind": "official",
+    "title": "Мышонок и репка",
+    "author": "Фёдорова Мария Евгеньевна",
+    "year": "2022",
+    "place": "Кузьминки-Люблино",
+    "place_basis": "пресс-релиз 2020 года называет здесь «Беличье семейство» и «Чеширского кота»",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-007",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.785511,
+     55.695137
+    ]
+   },
+   "properties": {
+    "id": "pa-007",
+    "kind": "official",
+    "title": "Беличье семейство",
+    "author": "Филосопова Оксана",
+    "year": "2020",
+    "place": "Кузьминки-Люблино",
+    "place_basis": "пресс-релиз 2020 года называет здесь «Беличье семейство» и «Чеширского кота»",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-008",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.799089,
+     55.690111
+    ]
+   },
+   "properties": {
+    "id": "pa-008",
+    "kind": "official",
+    "title": "Чеширский кот",
+    "author": "Симакова Ирина",
+    "year": "2020",
+    "place": "Кузьминки-Люблино",
+    "place_basis": "пресс-релиз 2020 года называет здесь «Беличье семейство» и «Чеширского кота»",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-009",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.4187448,
+     55.8649724
+    ]
+   },
+   "properties": {
+    "id": "pa-009",
+    "kind": "official",
+    "title": "Сказочный лес",
+    "author": "Чуваева Тамара",
+    "year": "2022",
+    "place": "Тушинский",
+    "place_basis": "пресс-релиз 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-010",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.4188521,
+     55.8647492
+    ]
+   },
+   "properties": {
+    "id": "pa-010",
+    "kind": "official",
+    "title": "Совенок",
+    "author": "Соловьева Арина",
+    "year": "2022",
+    "place": "Тушинский",
+    "place_basis": "пресс-релиз 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-011",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.4184707,
+     55.8647968
+    ]
+   },
+   "properties": {
+    "id": "pa-011",
+    "kind": "official",
+    "title": "Белка",
+    "author": "Соловьева Арина",
+    "year": "2022",
+    "place": "Тушинский",
+    "place_basis": "пресс-релиз 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-012",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.4188771,
+     55.8650806
+    ]
+   },
+   "properties": {
+    "id": "pa-012",
+    "kind": "official",
+    "title": "Лесная фея",
+    "author": "Соловьева Арина",
+    "year": "2022",
+    "place": "Тушинский",
+    "place_basis": "пресс-релиз 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-013",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.541135,
+     55.938888
+    ]
+   },
+   "properties": {
+    "id": "pa-013",
+    "kind": "official",
+    "title": "Архангельское-Тюриково",
+    "author": "Николюк Елена Васильевна",
+    "year": "2022",
+    "place": "Архангельское-Тюриково",
+    "place_basis": "пресс-релиз 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-014",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.54076,
+     55.940357
+    ]
+   },
+   "properties": {
+    "id": "pa-014",
+    "kind": "official",
+    "title": "Сова",
+    "author": "Мухаметжанова Анна",
+    "year": "2022",
+    "place": "Архангельское-Тюриково",
+    "place_basis": "пресс-релиз 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-015",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.54061,
+     55.940405
+    ]
+   },
+   "properties": {
+    "id": "pa-015",
+    "kind": "official",
+    "title": "Иволги",
+    "author": "Старинова Наталья",
+    "year": "2022",
+    "place": "Архангельское-Тюриково",
+    "place_basis": "пресс-релиз 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-016",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.602786,
+     55.941012
+    ]
+   },
+   "properties": {
+    "id": "pa-016",
+    "kind": "official",
+    "title": "Кит",
+    "author": "Андреева Екатерина Владимировна",
+    "year": "2022",
+    "place": "Место не подписано",
+    "place_basis": "на официальной карте у этих точек только координаты",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-017",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.548603,
+     55.917299
+    ]
+   },
+   "properties": {
+    "id": "pa-017",
+    "kind": "official",
+    "title": "Летучая мышь",
+    "author": "Белова Надежда",
+    "year": "2022",
+    "place": "Архангельское-Тюриково",
+    "place_basis": "пресс-релиз 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-018",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.548691,
+     55.917449
+    ]
+   },
+   "properties": {
+    "id": "pa-018",
+    "kind": "official",
+    "title": "Мышка в лесу",
+    "author": "Орлова Анна Дмитриевна",
+    "year": "2022",
+    "place": "Архангельское-Тюриково",
+    "place_basis": "пресс-релиз 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-019",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.548743,
+     55.917658
+    ]
+   },
+   "properties": {
+    "id": "pa-019",
+    "kind": "official",
+    "title": "Мать-Земля",
+    "author": "Морозова Ольга",
+    "year": "2022",
+    "place": "Архангельское-Тюриково",
+    "place_basis": "пресс-релиз 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-020",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.652415,
+     55.892848
+    ]
+   },
+   "properties": {
+    "id": "pa-020",
+    "kind": "official",
+    "title": "Сказочный лес",
+    "author": "Самохина Дина",
+    "year": "2021",
+    "place": "Место не подписано",
+    "place_basis": "на официальной карте у этих точек только координаты",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-021",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.565565,
+     55.90244
+    ]
+   },
+   "properties": {
+    "id": "pa-021",
+    "kind": "official",
+    "title": "Гусяш",
+    "author": "Морозова Ольга",
+    "year": "2021",
+    "place": "Лианозовский заказник",
+    "place_basis": "границы по OSM",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-022",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.564998,
+     55.900424
+    ]
+   },
+   "properties": {
+    "id": "pa-022",
+    "kind": "official",
+    "title": "Рапунцель",
+    "author": "Морозова Ольга",
+    "year": "2021",
+    "place": "Лианозовский заказник",
+    "place_basis": "границы по OSM",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-023",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.602462,
+     55.899155
+    ]
+   },
+   "properties": {
+    "id": "pa-023",
+    "kind": "official",
+    "title": "Пятачок",
+    "author": "Белова Надежда",
+    "year": "2021",
+    "place": "Алтуфьевский заказник",
+    "place_basis": "новость Мосприроды «…в Алтуфьевском поселились Винни-Пух и Пятачок»",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-024",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.602526,
+     55.899167
+    ]
+   },
+   "properties": {
+    "id": "pa-024",
+    "kind": "official",
+    "title": "Винни-Пух",
+    "author": "Белова Надежда",
+    "year": "2021",
+    "place": "Алтуфьевский заказник",
+    "place_basis": "новость Мосприроды «…в Алтуфьевском поселились Винни-Пух и Пятачок»",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-025",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.550722,
+     55.916828
+    ]
+   },
+   "properties": {
+    "id": "pa-025",
+    "kind": "official",
+    "title": "Ежик с зонтиком",
+    "author": "Михайлова Людмила",
+    "year": "2020",
+    "place": "Архангельское-Тюриково",
+    "place_basis": "пресс-релиз 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-026",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.548731,
+     55.917696
+    ]
+   },
+   "properties": {
+    "id": "pa-026",
+    "kind": "official",
+    "title": "Мышка на грибочке",
+    "author": "Михайлова Людмила",
+    "year": "2020",
+    "place": "Архангельское-Тюриково",
+    "place_basis": "пресс-релиз 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-027",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.424107,
+     55.86489
+    ]
+   },
+   "properties": {
+    "id": "pa-027",
+    "kind": "official",
+    "title": "Дорога в лето",
+    "author": "Пугачева Татьяна Афанасьевна",
+    "year": "2022",
+    "place": "Тушинский",
+    "place_basis": "пресс-релиз 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-028",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.418405,
+     55.864771
+    ]
+   },
+   "properties": {
+    "id": "pa-028",
+    "kind": "official",
+    "title": "Горный пейзаж",
+    "author": "Оздоева Луисана Хамзатовна",
+    "year": "2022",
+    "place": "Тушинский",
+    "place_basis": "пресс-релиз 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-029",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.423753,
+     55.865153
+    ]
+   },
+   "properties": {
+    "id": "pa-029",
+    "kind": "official",
+    "title": "Ополовники",
+    "author": "Лебедева Ирина Дмитриевна",
+    "year": "2022",
+    "place": "Тушинский",
+    "place_basis": "пресс-релиз 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-030",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.42419,
+     55.864804
+    ]
+   },
+   "properties": {
+    "id": "pa-030",
+    "kind": "official",
+    "title": "Улитка на грибе",
+    "author": "Мясищева Дарья Викторовна",
+    "year": "2022",
+    "place": "Тушинский",
+    "place_basis": "пресс-релиз 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-031",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.776975,
+     55.693705
+    ]
+   },
+   "properties": {
+    "id": "pa-031",
+    "kind": "official",
+    "title": "Библиотека чудес",
+    "author": "Орлова Анна Дмитриевна",
+    "year": "2022",
+    "place": "Кузьминки-Люблино",
+    "place_basis": "пресс-релиз 2020 года называет здесь «Беличье семейство» и «Чеширского кота»",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-032",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.78938,
+     55.693715
+    ]
+   },
+   "properties": {
+    "id": "pa-032",
+    "kind": "official",
+    "title": "Путешествие фиолетовой улитки по волшебному лесу",
+    "author": "Фёдорова Мария Евгеньевна",
+    "year": "2022",
+    "place": "Кузьминки-Люблино",
+    "place_basis": "пресс-релиз 2020 года называет здесь «Беличье семейство» и «Чеширского кота»",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-033",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.788389,
+     55.69324
+    ]
+   },
+   "properties": {
+    "id": "pa-033",
+    "kind": "official",
+    "title": "Мышиный замок",
+    "author": "Симакова Ирина",
+    "year": "2020",
+    "place": "Кузьминки-Люблино",
+    "place_basis": "пресс-релиз 2020 года называет здесь «Беличье семейство» и «Чеширского кота»",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-034",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.788389,
+     55.69324
+    ]
+   },
+   "properties": {
+    "id": "pa-034",
+    "kind": "official",
+    "title": "Следы на снегу",
+    "author": "Симакова Ирина",
+    "year": "2020",
+    "place": "Кузьминки-Люблино",
+    "place_basis": "пресс-релиз 2020 года называет здесь «Беличье семейство» и «Чеширского кота»",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-035",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.799157,
+     55.688947
+    ]
+   },
+   "properties": {
+    "id": "pa-035",
+    "kind": "official",
+    "title": "Звёзды",
+    "author": "Симакова Ирина",
+    "year": "2020",
+    "place": "Кузьминки-Люблино",
+    "place_basis": "пресс-релиз 2020 года называет здесь «Беличье семейство» и «Чеширского кота»",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-036",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.791854,
+     55.687245
+    ]
+   },
+   "properties": {
+    "id": "pa-036",
+    "kind": "official",
+    "title": "Алиса в стране чудес",
+    "author": "Симакова Ирина",
+    "year": "2020",
+    "place": "Кузьминки-Люблино",
+    "place_basis": "пресс-релиз 2020 года называет здесь «Беличье семейство» и «Чеширского кота»",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-037",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.674861,
+     55.598853
+    ]
+   },
+   "properties": {
+    "id": "pa-037",
+    "kind": "official",
+    "title": "Кот",
+    "place": "Бирюлёвский дендропарк",
+    "place_basis": "границы по OSM, пресс-релиз 2020 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-038",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.674829,
+     55.5989
+    ]
+   },
+   "properties": {
+    "id": "pa-038",
+    "kind": "official",
+    "title": "Абстракция",
+    "place": "Бирюлёвский дендропарк",
+    "place_basis": "границы по OSM, пресс-релиз 2020 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-039",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.674848,
+     55.598936
+    ]
+   },
+   "properties": {
+    "id": "pa-039",
+    "kind": "official",
+    "title": "Радужное небо",
+    "place": "Бирюлёвский дендропарк",
+    "place_basis": "границы по OSM, пресс-релиз 2020 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-040",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.674891,
+     55.59846
+    ]
+   },
+   "properties": {
+    "id": "pa-040",
+    "kind": "official",
+    "title": "Хорошее настроение",
+    "place": "Бирюлёвский дендропарк",
+    "place_basis": "границы по OSM, пресс-релиз 2020 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-041",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.674752,
+     55.597666
+    ]
+   },
+   "properties": {
+    "id": "pa-041",
+    "kind": "official",
+    "title": "Раскрасим вместе",
+    "place": "Бирюлёвский дендропарк",
+    "place_basis": "границы по OSM, пресс-релиз 2020 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-042",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.676774,
+     55.593251
+    ]
+   },
+   "properties": {
+    "id": "pa-042",
+    "kind": "official",
+    "title": "Рыбка",
+    "place": "Бирюлёвский дендропарк",
+    "place_basis": "границы по OSM, пресс-релиз 2020 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-043",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.676687,
+     55.593351
+    ]
+   },
+   "properties": {
+    "id": "pa-043",
+    "kind": "official",
+    "title": "Птица",
+    "place": "Бирюлёвский дендропарк",
+    "place_basis": "границы по OSM, пресс-релиз 2020 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-044",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.67648,
+     55.593348
+    ]
+   },
+   "properties": {
+    "id": "pa-044",
+    "kind": "official",
+    "title": "Пчёлки",
+    "place": "Бирюлёвский дендропарк",
+    "place_basis": "границы по OSM, пресс-релиз 2020 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-045",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.676879,
+     55.593351
+    ]
+   },
+   "properties": {
+    "id": "pa-045",
+    "kind": "official",
+    "title": "Рыбка и зебра",
+    "place": "Бирюлёвский дендропарк",
+    "place_basis": "границы по OSM, пресс-релиз 2020 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-046",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.831616,
+     55.800092
+    ]
+   },
+   "properties": {
+    "id": "pa-046",
+    "kind": "official",
+    "title": "Грибочек",
+    "author": "ГБУ ЦСПР им. Г.И.Россолимо",
+    "year": "2022",
+    "place": "Измайловский лесопарк",
+    "place_basis": "ООПТ «Измайлово» по OSM; «Грибочек» и «Рыбы-клоуны» названы в пресс-релизе 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-047",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.792952,
+     55.784452
+    ]
+   },
+   "properties": {
+    "id": "pa-047",
+    "kind": "official",
+    "title": "Рыбы-клоуны",
+    "author": "Морозова Екатерина",
+    "year": "2022",
+    "place": "Измайловский лесопарк",
+    "place_basis": "ООПТ «Измайлово» по OSM; «Грибочек» и «Рыбы-клоуны» названы в пресс-релизе 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-048",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.783203,
+     55.772766
+    ]
+   },
+   "properties": {
+    "id": "pa-048",
+    "kind": "official",
+    "title": "Пейзаж с горами, планетами, рекой, лесом и домиком",
+    "author": "Хлынина Евгения",
+    "year": "2021",
+    "place": "Измайловский лесопарк",
+    "place_basis": "ООПТ «Измайлово» по OSM; «Грибочек» и «Рыбы-клоуны» названы в пресс-релизе 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-049",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.794434,
+     55.787841
+    ]
+   },
+   "properties": {
+    "id": "pa-049",
+    "kind": "official",
+    "title": "Беличья семейка",
+    "author": "Меньшова Елена",
+    "year": "2021",
+    "place": "Измайловский лесопарк",
+    "place_basis": "ООПТ «Измайлово» по OSM; «Грибочек» и «Рыбы-клоуны» названы в пресс-релизе 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-050",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.77525,
+     55.77358
+    ]
+   },
+   "properties": {
+    "id": "pa-050",
+    "kind": "official",
+    "found": "2026-10-24",
+    "title": "Египетский кот",
+    "author": "Трифонова Ольга",
+    "year": "2021",
+    "place": "Измайловский лесопарк",
+    "place_basis": "ООПТ «Измайлово» по OSM; «Грибочек» и «Рыбы-клоуны» названы в пресс-релизе 2022 года",
+    "note": "Найден на месте 24 октября 2026 года. Точка с места — в 11 м от официальной; на этом же дереве стоит метка OpenStreetMap без названия (тип «граффити»).",
+    "osm": "12713903162",
+    "official_lat": "55.773538",
+    "official_lon": "37.775092",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "found"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-051",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.797991,
+     55.785588
+    ]
+   },
+   "properties": {
+    "id": "pa-051",
+    "kind": "official",
+    "title": "Драконы",
+    "author": "Морозова Екатерина",
+    "year": "2021",
+    "place": "Измайловский лесопарк",
+    "place_basis": "ООПТ «Измайлово» по OSM; «Грибочек» и «Рыбы-клоуны» названы в пресс-релизе 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-052",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.774976,
+     55.773873
+    ]
+   },
+   "properties": {
+    "id": "pa-052",
+    "kind": "official",
+    "title": "Маленький принц",
+    "author": "Хлынина Евгения",
+    "year": "2021",
+    "place": "Измайловский лесопарк",
+    "place_basis": "ООПТ «Измайлово» по OSM; «Грибочек» и «Рыбы-клоуны» названы в пресс-релизе 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-053",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.783185,
+     55.773057
+    ]
+   },
+   "properties": {
+    "id": "pa-053",
+    "kind": "official",
+    "title": "Снусмумрик",
+    "author": "Хлынина Евгения",
+    "year": "2020",
+    "place": "Измайловский лесопарк",
+    "place_basis": "ООПТ «Измайлово» по OSM; «Грибочек» и «Рыбы-клоуны» названы в пресс-релизе 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-054",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.784805,
+     55.78542
+    ]
+   },
+   "properties": {
+    "id": "pa-054",
+    "kind": "official",
+    "title": "Рыжий котик",
+    "author": "Рунова Татьяна",
+    "year": "2020",
+    "place": "Измайловский лесопарк",
+    "place_basis": "ООПТ «Измайлово» по OSM; «Грибочек» и «Рыбы-клоуны» названы в пресс-релизе 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-055",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.784844,
+     55.784187
+    ]
+   },
+   "properties": {
+    "id": "pa-055",
+    "kind": "official",
+    "title": "Ночной дозор",
+    "author": "Маслова Ирина",
+    "year": "2020",
+    "place": "Измайловский лесопарк",
+    "place_basis": "ООПТ «Измайлово» по OSM; «Грибочек» и «Рыбы-клоуны» названы в пресс-релизе 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-056",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.804482,
+     55.776854
+    ]
+   },
+   "properties": {
+    "id": "pa-056",
+    "kind": "official",
+    "title": "Лесовичок",
+    "author": "Филосопова Оксана",
+    "year": "2020",
+    "place": "Измайловский лесопарк",
+    "place_basis": "ООПТ «Измайлово» по OSM; «Грибочек» и «Рыбы-клоуны» названы в пресс-релизе 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-057",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.807998,
+     55.786021
+    ]
+   },
+   "properties": {
+    "id": "pa-057",
+    "kind": "official",
+    "title": "Дона с собачкой",
+    "author": "Скворцова Наталья",
+    "year": "2019",
+    "place": "Измайловский лесопарк",
+    "place_basis": "ООПТ «Измайлово» по OSM; «Грибочек» и «Рыбы-клоуны» названы в пресс-релизе 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-058",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.779643,
+     55.787567
+    ]
+   },
+   "properties": {
+    "id": "pa-058",
+    "kind": "official",
+    "title": "Котики",
+    "author": "Морозова Екатерина",
+    "year": "2019",
+    "place": "Измайловский лесопарк",
+    "place_basis": "ООПТ «Измайлово» по OSM; «Грибочек» и «Рыбы-клоуны» названы в пресс-релизе 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-059",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.774505,
+     55.775438
+    ]
+   },
+   "properties": {
+    "id": "pa-059",
+    "kind": "official",
+    "title": "Тоторо",
+    "author": "Хлынина Евгения",
+    "year": "2019",
+    "place": "Измайловский лесопарк",
+    "place_basis": "ООПТ «Измайлово» по OSM; «Грибочек» и «Рыбы-клоуны» названы в пресс-релизе 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-060",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.773025,
+     55.77369
+    ]
+   },
+   "properties": {
+    "id": "pa-060",
+    "kind": "official",
+    "title": "Мумий тролль",
+    "author": "Хлынина Евгения",
+    "year": "2019",
+    "place": "Измайловский лесопарк",
+    "place_basis": "ООПТ «Измайлово» по OSM; «Грибочек» и «Рыбы-клоуны» названы в пресс-релизе 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-061",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.793203,
+     55.786427
+    ]
+   },
+   "properties": {
+    "id": "pa-061",
+    "kind": "official",
+    "title": "Девочка на шаре",
+    "author": "Ростова Галина",
+    "year": "2019",
+    "place": "Измайловский лесопарк",
+    "place_basis": "ООПТ «Измайлово» по OSM; «Грибочек» и «Рыбы-клоуны» названы в пресс-релизе 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-062",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.783562,
+     55.787166
+    ]
+   },
+   "properties": {
+    "id": "pa-062",
+    "kind": "official",
+    "title": "Заходи, если шо",
+    "author": "Ростова Галина",
+    "year": "2019",
+    "place": "Измайловский лесопарк",
+    "place_basis": "ООПТ «Измайлово» по OSM; «Грибочек» и «Рыбы-клоуны» названы в пресс-релизе 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-063",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.794219,
+     55.785785
+    ]
+   },
+   "properties": {
+    "id": "pa-063",
+    "kind": "official",
+    "title": "Белка из ледникового периода",
+    "author": "Шовкопляс Виктория",
+    "year": "2019",
+    "place": "Измайловский лесопарк",
+    "place_basis": "ООПТ «Измайлово» по OSM; «Грибочек» и «Рыбы-клоуны» названы в пресс-релизе 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-064",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.779673,
+     55.787582
+    ]
+   },
+   "properties": {
+    "id": "pa-064",
+    "kind": "official",
+    "title": "Совиные глаза",
+    "author": "Красотина Вероника",
+    "year": "2019",
+    "place": "Измайловский лесопарк",
+    "place_basis": "ООПТ «Измайлово» по OSM; «Грибочек» и «Рыбы-клоуны» названы в пресс-релизе 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-065",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.783241,
+     55.78516
+    ]
+   },
+   "properties": {
+    "id": "pa-065",
+    "kind": "official",
+    "title": "Ушастики",
+    "author": "Пернатые+",
+    "year": "2019",
+    "place": "Измайловский лесопарк",
+    "place_basis": "ООПТ «Измайлово» по OSM; «Грибочек» и «Рыбы-клоуны» названы в пресс-релизе 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-066",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.788584,
+     55.785338
+    ]
+   },
+   "properties": {
+    "id": "pa-066",
+    "kind": "official",
+    "title": "Ополовник",
+    "author": "Пернатые+",
+    "year": "2018",
+    "place": "Измайловский лесопарк",
+    "place_basis": "ООПТ «Измайлово» по OSM; «Грибочек» и «Рыбы-клоуны» названы в пресс-релизе 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-067",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.783628,
+     55.78473
+    ]
+   },
+   "properties": {
+    "id": "pa-067",
+    "kind": "official",
+    "title": "Дракон",
+    "author": "Пернатые+",
+    "year": "2019",
+    "place": "Измайловский лесопарк",
+    "place_basis": "ООПТ «Измайлово» по OSM; «Грибочек» и «Рыбы-клоуны» названы в пресс-релизе 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-068",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.798141,
+     55.785452
+    ]
+   },
+   "properties": {
+    "id": "pa-068",
+    "kind": "official",
+    "title": "Водопад на Косинском",
+    "author": "Филипова Анастасия",
+    "year": "2019",
+    "place": "Измайловский лесопарк",
+    "place_basis": "ООПТ «Измайлово» по OSM; «Грибочек» и «Рыбы-клоуны» названы в пресс-релизе 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-069",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.793527,
+     55.784356
+    ]
+   },
+   "properties": {
+    "id": "pa-069",
+    "kind": "official",
+    "title": "Малахитовые волны",
+    "author": "Алена",
+    "year": "2019",
+    "place": "Измайловский лесопарк",
+    "place_basis": "ООПТ «Измайлово» по OSM; «Грибочек» и «Рыбы-клоуны» названы в пресс-релизе 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-070",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.785241,
+     55.785666
+    ]
+   },
+   "properties": {
+    "id": "pa-070",
+    "kind": "official",
+    "title": "Филин",
+    "author": "Пернатые+",
+    "year": "2018",
+    "place": "Измайловский лесопарк",
+    "place_basis": "ООПТ «Измайлово» по OSM; «Грибочек» и «Рыбы-клоуны» названы в пресс-релизе 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-071",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.782507,
+     55.785785
+    ]
+   },
+   "properties": {
+    "id": "pa-071",
+    "kind": "official",
+    "title": "Ежик",
+    "author": "Пернатые+",
+    "year": "2018",
+    "place": "Измайловский лесопарк",
+    "place_basis": "ООПТ «Измайлово» по OSM; «Грибочек» и «Рыбы-клоуны» названы в пресс-релизе 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-072",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.794164,
+     55.787829
+    ]
+   },
+   "properties": {
+    "id": "pa-072",
+    "kind": "official",
+    "title": "Снегирь",
+    "author": "Быченкова Марта",
+    "year": "2018",
+    "place": "Измайловский лесопарк",
+    "place_basis": "ООПТ «Измайлово» по OSM; «Грибочек» и «Рыбы-клоуны» названы в пресс-релизе 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-073",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.794239,
+     55.7875
+    ]
+   },
+   "properties": {
+    "id": "pa-073",
+    "kind": "official",
+    "title": "Довольный лось",
+    "author": "Юдина Елена",
+    "year": "2018",
+    "place": "Измайловский лесопарк",
+    "place_basis": "ООПТ «Измайлово» по OSM; «Грибочек» и «Рыбы-клоуны» названы в пресс-релизе 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-074",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.785669,
+     55.78531
+    ]
+   },
+   "properties": {
+    "id": "pa-074",
+    "kind": "official",
+    "title": "Шахматная доска",
+    "author": "Морозова Екатерина",
+    "year": "2018",
+    "place": "Измайловский лесопарк",
+    "place_basis": "ООПТ «Измайлово» по OSM; «Грибочек» и «Рыбы-клоуны» названы в пресс-релизе 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-075",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.794273,
+     55.78747
+    ]
+   },
+   "properties": {
+    "id": "pa-075",
+    "kind": "official",
+    "title": "Павлины",
+    "author": "Демид Екатерина",
+    "year": "2018",
+    "place": "Измайловский лесопарк",
+    "place_basis": "ООПТ «Измайлово» по OSM; «Грибочек» и «Рыбы-клоуны» названы в пресс-релизе 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-076",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.793979,
+     55.787669
+    ]
+   },
+   "properties": {
+    "id": "pa-076",
+    "kind": "official",
+    "title": "Маленький принц",
+    "author": "Солодова Дарья",
+    "year": "2018",
+    "place": "Измайловский лесопарк",
+    "place_basis": "ООПТ «Измайлово» по OSM; «Грибочек» и «Рыбы-клоуны» названы в пресс-релизе 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-077",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.794305,
+     55.787723
+    ]
+   },
+   "properties": {
+    "id": "pa-077",
+    "kind": "official",
+    "title": "Мама совушка",
+    "author": "Загвоздкина Анна и Ковалева Анастасия",
+    "year": "2018",
+    "place": "Измайловский лесопарк",
+    "place_basis": "ООПТ «Измайлово» по OSM; «Грибочек» и «Рыбы-клоуны» названы в пресс-релизе 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-078",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.794209,
+     55.787433
+    ]
+   },
+   "properties": {
+    "id": "pa-078",
+    "kind": "official",
+    "title": "Рыжий пират",
+    "author": "Пернатые+",
+    "year": "2018",
+    "place": "Измайловский лесопарк",
+    "place_basis": "ООПТ «Измайлово» по OSM; «Грибочек» и «Рыбы-клоуны» названы в пресс-релизе 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-079",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.804446,
+     55.776471
+    ]
+   },
+   "properties": {
+    "id": "pa-079",
+    "kind": "official",
+    "title": "Ласка",
+    "author": "Хлынина Евгения",
+    "year": "2017",
+    "place": "Измайловский лесопарк",
+    "place_basis": "ООПТ «Измайлово» по OSM; «Грибочек» и «Рыбы-клоуны» названы в пресс-релизе 2022 года",
+    "note": "В ранних версиях карты (июнь и август 2022) «Ласка» стояла в 2 км западнее, у «Водопада»: 55.774569, 37.773684.",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-080",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.804096,
+     55.776695
+    ]
+   },
+   "properties": {
+    "id": "pa-080",
+    "kind": "official",
+    "title": "Мышонок",
+    "author": "Хлынина Евгения",
+    "year": "2017",
+    "place": "Измайловский лесопарк",
+    "place_basis": "ООПТ «Измайлово» по OSM; «Грибочек» и «Рыбы-клоуны» названы в пресс-релизе 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-081",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.804784,
+     55.77673
+    ]
+   },
+   "properties": {
+    "id": "pa-081",
+    "kind": "official",
+    "title": "Сова",
+    "author": "Хлынина Евгения",
+    "year": "2017",
+    "place": "Измайловский лесопарк",
+    "place_basis": "ООПТ «Измайлово» по OSM; «Грибочек» и «Рыбы-клоуны» названы в пресс-релизе 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-082",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.773527,
+     55.774522
+    ]
+   },
+   "properties": {
+    "id": "pa-082",
+    "kind": "official",
+    "title": "Водопад",
+    "author": "Хлынина Евгения",
+    "year": "2017",
+    "place": "Измайловский лесопарк",
+    "place_basis": "ООПТ «Измайлово» по OSM; «Грибочек» и «Рыбы-клоуны» названы в пресс-релизе 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-083",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.774074,
+     55.773361
+    ]
+   },
+   "properties": {
+    "id": "pa-083",
+    "kind": "official",
+    "title": "Дятел",
+    "author": "Хлынина Евгения",
+    "year": "2017",
+    "place": "Измайловский лесопарк",
+    "place_basis": "ООПТ «Измайлово» по OSM; «Грибочек» и «Рыбы-клоуны» названы в пресс-релизе 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-084",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.773323,
+     55.774201
+    ]
+   },
+   "properties": {
+    "id": "pa-084",
+    "kind": "official",
+    "title": "Эльфы",
+    "author": "Хлынина Евгения",
+    "year": "2017",
+    "place": "Измайловский лесопарк",
+    "place_basis": "ООПТ «Измайлово» по OSM; «Грибочек» и «Рыбы-клоуны» названы в пресс-релизе 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-085",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.782913,
+     55.777436
+    ]
+   },
+   "properties": {
+    "id": "pa-085",
+    "kind": "official",
+    "title": "Другая жизнь",
+    "author": "Ковалева Анастасия",
+    "year": "2016",
+    "place": "Измайловский лесопарк",
+    "place_basis": "ООПТ «Измайлово» по OSM; «Грибочек» и «Рыбы-клоуны» названы в пресс-релизе 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-086",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.804436,
+     55.777026
+    ]
+   },
+   "properties": {
+    "id": "pa-086",
+    "kind": "official",
+    "title": "Белочка с орехом",
+    "author": "Хлынина Евгения",
+    "year": "2017",
+    "place": "Измайловский лесопарк",
+    "place_basis": "ООПТ «Измайлово» по OSM; «Грибочек» и «Рыбы-клоуны» названы в пресс-релизе 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-087",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.782911,
+     55.778069
+    ]
+   },
+   "properties": {
+    "id": "pa-087",
+    "kind": "official",
+    "title": "Ежик в тумане",
+    "author": "Хлынина Евгения",
+    "year": "2016",
+    "place": "Измайловский лесопарк",
+    "place_basis": "ООПТ «Измайлово» по OSM; «Грибочек» и «Рыбы-клоуны» названы в пресс-релизе 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-088",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.498646,
+     55.637442
+    ]
+   },
+   "properties": {
+    "id": "pa-088",
+    "kind": "official",
+    "title": "Краски солнца",
+    "author": "Шебанова Ульяна",
+    "year": "2022",
+    "place": "Место не подписано",
+    "place_basis": "на официальной карте у этих точек только координаты",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-089",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.492883,
+     55.634453
+    ]
+   },
+   "properties": {
+    "id": "pa-089",
+    "kind": "official",
+    "title": "Морская глубина",
+    "author": "Шебанова Ульяна",
+    "year": "2022",
+    "place": "Место не подписано",
+    "place_basis": "на официальной карте у этих точек только координаты",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-090",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.779675,
+     55.693705
+    ]
+   },
+   "properties": {
+    "id": "pa-090",
+    "kind": "official",
+    "title": "Библиотека чудес",
+    "author": "Орлова Анна Дмитриевна",
+    "year": "2022",
+    "place": "Кузьминки-Люблино",
+    "place_basis": "пресс-релиз 2020 года называет здесь «Беличье семейство» и «Чеширского кота»",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-091",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.545741,
+     55.597599
+    ]
+   },
+   "properties": {
+    "id": "pa-091",
+    "kind": "official",
+    "title": "Пчелка на ромашке",
+    "author": "Шингаркин Дмитрий",
+    "year": "2022",
+    "place": "Битцевский лес",
+    "place_basis": "границы по OSM",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-092",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.54574,
+     55.597597
+    ]
+   },
+   "properties": {
+    "id": "pa-092",
+    "kind": "official",
+    "title": "Утенок на пруду",
+    "author": "Кожевникова Екатерина",
+    "year": "2022",
+    "place": "Битцевский лес",
+    "place_basis": "границы по OSM",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-093",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.55123,
+     55.597668
+    ]
+   },
+   "properties": {
+    "id": "pa-093",
+    "kind": "official",
+    "title": "Обитатели глубин",
+    "author": "Кожевникова Екатерина",
+    "year": "2022",
+    "place": "Битцевский лес",
+    "place_basis": "границы по OSM",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-094",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.552204,
+     55.598316
+    ]
+   },
+   "properties": {
+    "id": "pa-094",
+    "kind": "official",
+    "title": "Лебединое озеро",
+    "author": "Кожевникова Екатерина",
+    "year": "2022",
+    "place": "Битцевский лес",
+    "place_basis": "границы по OSM",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-095",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.562106,
+     55.602057
+    ]
+   },
+   "properties": {
+    "id": "pa-095",
+    "kind": "official",
+    "title": "Маяк у воды",
+    "author": "Кожевникова Екатерина",
+    "year": "2022",
+    "place": "Битцевский лес",
+    "place_basis": "границы по OSM",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-096",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.577622,
+     55.718498
+    ]
+   },
+   "properties": {
+    "id": "pa-096",
+    "kind": "official",
+    "title": "Редкие красоты Москвы",
+    "author": "Кущенко Олеся Олеговна",
+    "year": "2022",
+    "place": "Хамовники",
+    "place_basis": "по положению точек; точное место не подтверждено",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-097",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.577607,
+     55.718464
+    ]
+   },
+   "properties": {
+    "id": "pa-097",
+    "kind": "official",
+    "title": "Мышка",
+    "author": "Орлова Анна Дмитриевна",
+    "year": "2022",
+    "place": "Хамовники",
+    "place_basis": "по положению точек; точное место не подтверждено",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-098",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.577612,
+     55.718492
+    ]
+   },
+   "properties": {
+    "id": "pa-098",
+    "kind": "official",
+    "title": "Зимний пейзаж",
+    "author": "Николюк Елена Васильевна",
+    "year": "2022",
+    "place": "Хамовники",
+    "place_basis": "по положению точек; точное место не подтверждено",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-099",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.57761,
+     55.718494
+    ]
+   },
+   "properties": {
+    "id": "pa-099",
+    "kind": "official",
+    "title": "Белка-летяга",
+    "author": "Худяева Ольга Олеговна",
+    "year": "2022",
+    "place": "Хамовники",
+    "place_basis": "по положению точек; точное место не подтверждено",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-100",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.649159,
+     55.735561
+    ]
+   },
+   "properties": {
+    "id": "pa-100",
+    "kind": "official",
+    "title": "Горы",
+    "author": "Зименкова Мария Вячеславовна",
+    "year": "2022",
+    "place": "Таганский район",
+    "place_basis": "по положению точек; точное место не подтверждено",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-101",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.64924,
+     55.735415
+    ]
+   },
+   "properties": {
+    "id": "pa-101",
+    "kind": "official",
+    "title": "Закат",
+    "author": "Чернова Надежда Владимировна",
+    "year": "2022",
+    "place": "Таганский район",
+    "place_basis": "по положению точек; точное место не подтверждено",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-102",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.454499,
+     55.82894
+    ]
+   },
+   "properties": {
+    "id": "pa-102",
+    "kind": "official",
+    "title": "Северное сияние",
+    "author": "Хижниченко Татьяна",
+    "year": "2022",
+    "place": "Место не подписано",
+    "place_basis": "на официальной карте у этих точек только координаты",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-103",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.45475,
+     55.828997
+    ]
+   },
+   "properties": {
+    "id": "pa-103",
+    "kind": "official",
+    "title": "Колибри",
+    "author": "Елизарова Вероника",
+    "year": "2022",
+    "place": "Место не подписано",
+    "place_basis": "на официальной карте у этих точек только координаты",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-104",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.454408,
+     55.82903
+    ]
+   },
+   "properties": {
+    "id": "pa-104",
+    "kind": "official",
+    "title": "Крокус",
+    "author": "Кожан Валерия",
+    "year": "2022",
+    "place": "Место не подписано",
+    "place_basis": "на официальной карте у этих точек только координаты",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-105",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.454499,
+     55.829075
+    ]
+   },
+   "properties": {
+    "id": "pa-105",
+    "kind": "official",
+    "title": "Радужный дракон",
+    "author": "Коновалова Анна",
+    "year": "2022",
+    "place": "Место не подписано",
+    "place_basis": "на официальной карте у этих точек только координаты",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-106",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.577726,
+     55.736368
+    ]
+   },
+   "properties": {
+    "id": "pa-106",
+    "kind": "official",
+    "title": "Травянистый рай",
+    "author": "Лебедева Ирина",
+    "year": "2022",
+    "place": "Девичье поле",
+    "place_basis": "городская площадка, пресс-релиз 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-107",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.577846,
+     55.736171
+    ]
+   },
+   "properties": {
+    "id": "pa-107",
+    "kind": "official",
+    "title": "Кот и сова",
+    "author": "Коваленко Анна",
+    "year": "2022",
+    "place": "Девичье поле",
+    "place_basis": "городская площадка, пресс-релиз 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-108",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.577752,
+     55.736247
+    ]
+   },
+   "properties": {
+    "id": "pa-108",
+    "kind": "official",
+    "title": "Осенняя красавица",
+    "author": "Лебедева Ульяна",
+    "year": "2022",
+    "place": "Девичье поле",
+    "place_basis": "городская площадка, пресс-релиз 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-109",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.577597,
+     55.736348
+    ]
+   },
+   "properties": {
+    "id": "pa-109",
+    "kind": "official",
+    "title": "Лиса на лугу",
+    "author": "Мальцева Дарья",
+    "year": "2022",
+    "place": "Девичье поле",
+    "place_basis": "городская площадка, пресс-релиз 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-110",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.421735,
+     55.85678
+    ]
+   },
+   "properties": {
+    "id": "pa-110",
+    "kind": "official",
+    "title": "Портрет А.С. Пушкина",
+    "author": "Литвиненко Александра",
+    "year": "2022",
+    "place": "Улица Туристская, 20 к1",
+    "place_basis": "городская площадка, адрес из пресс-релиза 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-111",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.421734,
+     55.85678
+    ]
+   },
+   "properties": {
+    "id": "pa-111",
+    "kind": "official",
+    "title": "Избушка на курьих ножках",
+    "author": "Кожевникова Екатерина",
+    "year": "2022",
+    "place": "Улица Туристская, 20 к1",
+    "place_basis": "городская площадка, адрес из пресс-релиза 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-112",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.421733,
+     55.85678
+    ]
+   },
+   "properties": {
+    "id": "pa-112",
+    "kind": "official",
+    "title": "Лисята",
+    "author": "Макарова Екатерина",
+    "year": "2022",
+    "place": "Улица Туристская, 20 к1",
+    "place_basis": "городская площадка, адрес из пресс-релиза 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-113",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.421732,
+     55.85678
+    ]
+   },
+   "properties": {
+    "id": "pa-113",
+    "kind": "official",
+    "title": "Колобок",
+    "author": "Шинкарева Елизавета",
+    "year": "2022",
+    "place": "Улица Туристская, 20 к1",
+    "place_basis": "городская площадка, адрес из пресс-релиза 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "pa-114",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.421731,
+     55.85678
+    ]
+   },
+   "properties": {
+    "id": "pa-114",
+    "kind": "official",
+    "title": "Матрешка",
+    "author": "Сивец Дарья",
+    "year": "2022",
+    "place": "Улица Туристская, 20 к1",
+    "place_basis": "городская площадка, адрес из пресс-релиза 2022 года",
+    "source": "Официальная карта ПаркАрт, Мосприрода (октябрь 2022)",
+    "shown_kind": "official"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "fi-001",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.4858368,
+     55.744868
+    ]
+   },
+   "properties": {
+    "id": "fi-001",
+    "kind": "fili",
+    "title": "Рисунок без названия",
+    "untitled": "1",
+    "author": "Марина Кочнева",
+    "place": "Фили",
+    "place_basis": "карта About #Moscow, два названия — из OSM",
+    "source": "Карта парка Фили, About #Moscow (2021)",
+    "shown_kind": "fili"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "fi-002",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.4894282,
+     55.7484869
+    ]
+   },
+   "properties": {
+    "id": "fi-002",
+    "kind": "fili",
+    "title": "Рисунок без названия",
+    "untitled": "1",
+    "author": "Марина Кочнева",
+    "place": "Фили",
+    "place_basis": "карта About #Moscow, два названия — из OSM",
+    "source": "Карта парка Фили, About #Moscow (2021)",
+    "shown_kind": "fili"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "fi-003",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.4909195,
+     55.7495859
+    ]
+   },
+   "properties": {
+    "id": "fi-003",
+    "kind": "fili",
+    "title": "Рисунок без названия",
+    "untitled": "1",
+    "author": "Марина Кочнева",
+    "place": "Фили",
+    "place_basis": "карта About #Moscow, два названия — из OSM",
+    "source": "Карта парка Фили, About #Moscow (2021)",
+    "shown_kind": "fili"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "fi-004",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.4807547,
+     55.7495799
+    ]
+   },
+   "properties": {
+    "id": "fi-004",
+    "kind": "fili",
+    "title": "Рисунок без названия",
+    "untitled": "1",
+    "author": "Марина Кочнева",
+    "place": "Фили",
+    "place_basis": "карта About #Moscow, два названия — из OSM",
+    "source": "Карта парка Фили, About #Moscow (2021)",
+    "shown_kind": "fili"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "fi-005",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.480263,
+     55.7494208
+    ]
+   },
+   "properties": {
+    "id": "fi-005",
+    "kind": "fili",
+    "title": "Рисунок без названия",
+    "untitled": "1",
+    "author": "Марина Кочнева",
+    "place": "Фили",
+    "place_basis": "карта About #Moscow, два названия — из OSM",
+    "source": "Карта парка Фили, About #Moscow (2021)",
+    "shown_kind": "fili"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "fi-006",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.4780293,
+     55.7502664
+    ]
+   },
+   "properties": {
+    "id": "fi-006",
+    "kind": "fili",
+    "title": "Мэри Поппинс",
+    "author": "Марина Кочнева",
+    "place": "Фили",
+    "place_basis": "карта About #Moscow, два названия — из OSM",
+    "note": "Название — из метки OpenStreetMap в 12 м.",
+    "osm": "11867936234",
+    "source": "Карта парка Фили, About #Moscow (2021)",
+    "shown_kind": "fili"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "fi-007",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.4762376,
+     55.7473707
+    ]
+   },
+   "properties": {
+    "id": "fi-007",
+    "kind": "fili",
+    "title": "Ведьмина служба доставки",
+    "author": "Марина Кочнева",
+    "place": "Фили",
+    "place_basis": "карта About #Moscow, два названия — из OSM",
+    "note": "Название — из метки OpenStreetMap в 25 м.",
+    "osm": "11837687812",
+    "source": "Карта парка Фили, About #Moscow (2021)",
+    "shown_kind": "fili"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "fi-008",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.4760659,
+     55.7460784
+    ]
+   },
+   "properties": {
+    "id": "fi-008",
+    "kind": "fili",
+    "title": "Рисунок без названия",
+    "untitled": "1",
+    "author": "Марина Кочнева",
+    "place": "Фили",
+    "place_basis": "карта About #Moscow, два названия — из OSM",
+    "source": "Карта парка Фили, About #Moscow (2021)",
+    "shown_kind": "fili"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "fi-009",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.4764522,
+     55.7459093
+    ]
+   },
+   "properties": {
+    "id": "fi-009",
+    "kind": "fili",
+    "title": "Рисунок без названия",
+    "untitled": "1",
+    "author": "Марина Кочнева",
+    "place": "Фили",
+    "place_basis": "карта About #Moscow, два названия — из OSM",
+    "source": "Карта парка Фили, About #Moscow (2021)",
+    "shown_kind": "fili"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "fi-010",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.486075,
+     55.7449312
+    ]
+   },
+   "properties": {
+    "id": "fi-010",
+    "kind": "fili",
+    "title": "Рисунок без названия",
+    "untitled": "1",
+    "author": "Марина Кочнева",
+    "place": "Фили",
+    "place_basis": "карта About #Moscow, два названия — из OSM",
+    "source": "Карта парка Фили, About #Moscow (2021)",
+    "shown_kind": "fili"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "fi-011",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.4863164,
+     55.7449927
+    ]
+   },
+   "properties": {
+    "id": "fi-011",
+    "kind": "fili",
+    "title": "Рисунок без названия",
+    "untitled": "1",
+    "author": "Марина Кочнева",
+    "place": "Фили",
+    "place_basis": "карта About #Moscow, два названия — из OSM",
+    "source": "Карта парка Фили, About #Moscow (2021)",
+    "shown_kind": "fili"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "fi-012",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.4865524,
+     55.745056
+    ]
+   },
+   "properties": {
+    "id": "fi-012",
+    "kind": "fili",
+    "title": "Рисунок без названия",
+    "untitled": "1",
+    "author": "Марина Кочнева",
+    "place": "Фили",
+    "place_basis": "карта About #Moscow, два названия — из OSM",
+    "source": "Карта парка Фили, About #Moscow (2021)",
+    "shown_kind": "fili"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "fi-013",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.4912815,
+     55.7484443
+    ]
+   },
+   "properties": {
+    "id": "fi-013",
+    "kind": "fili",
+    "title": "Рисунок без названия",
+    "untitled": "1",
+    "author": "Марина Кочнева",
+    "place": "Фили",
+    "place_basis": "карта About #Moscow, два названия — из OSM",
+    "source": "Карта парка Фили, About #Moscow (2021)",
+    "shown_kind": "fili"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "fi-014",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.486805,
+     55.7451472
+    ]
+   },
+   "properties": {
+    "id": "fi-014",
+    "kind": "fili",
+    "title": "Рисунок без названия",
+    "untitled": "1",
+    "author": "Марина Кочнева",
+    "place": "Фили",
+    "place_basis": "карта About #Moscow, два названия — из OSM",
+    "source": "Карта парка Фили, About #Moscow (2021)",
+    "shown_kind": "fili"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "fi-015",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.4890258,
+     55.7473574
+    ]
+   },
+   "properties": {
+    "id": "fi-015",
+    "kind": "fili",
+    "title": "Рисунок без названия",
+    "untitled": "1",
+    "author": "Марина Кочнева",
+    "place": "Фили",
+    "place_basis": "карта About #Moscow, два названия — из OSM",
+    "source": "Карта парка Фили, About #Moscow (2021)",
+    "shown_kind": "fili"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "fi-016",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.4587621,
+     55.7381305
+    ]
+   },
+   "properties": {
+    "id": "fi-016",
+    "kind": "fili",
+    "title": "Рисунок без названия",
+    "untitled": "1",
+    "author": "Марина Кочнева",
+    "place": "Фили",
+    "place_basis": "карта About #Moscow, два названия — из OSM",
+    "source": "Карта парка Фили, About #Moscow (2021)",
+    "shown_kind": "fili"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "osm-13082054909",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5478017,
+     55.5972288
+    ]
+   },
+   "properties": {
+    "id": "osm-13082054909",
+    "kind": "osm",
+    "title": "Кролик и Иа-Иа",
+    "place": "Битцевский лес",
+    "place_basis": "границы по OSM",
+    "note": "В OSM отмечен как рисунок на дереве.",
+    "osm": "13082054909",
+    "source": "OpenStreetMap",
+    "shown_kind": "osm"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "osm-13082054910",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5476936,
+     55.5972389
+    ]
+   },
+   "properties": {
+    "id": "osm-13082054910",
+    "kind": "osm",
+    "title": "Пятачок",
+    "place": "Битцевский лес",
+    "place_basis": "границы по OSM",
+    "note": "В OSM отмечен как рисунок на дереве.",
+    "osm": "13082054910",
+    "source": "OpenStreetMap",
+    "shown_kind": "osm"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "osm-13428601265",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.7213692,
+     55.8607477
+    ]
+   },
+   "properties": {
+    "id": "osm-13428601265",
+    "kind": "osm",
+    "title": "Снегири",
+    "place": "Лосиный остров",
+    "place_basis": "место по OSM",
+    "note": "В OSM — картина «Снегири».",
+    "osm": "13428601265",
+    "source": "OpenStreetMap",
+    "shown_kind": "osm"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "osm-10023271692",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.68211,
+     55.598425
+    ]
+   },
+   "properties": {
+    "id": "osm-10023271692",
+    "kind": "osm",
+    "title": "Пейзаж на пне",
+    "place": "Бирюлёвский дендропарк",
+    "place_basis": "границы по OSM, пресс-релиз 2020 года",
+    "note": "В OSM — рисунок на пне, май 2022.",
+    "osm": "10023271692",
+    "source": "OpenStreetMap",
+    "shown_kind": "osm"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "osm-12828482226",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.7832498,
+     55.77272
+    ]
+   },
+   "properties": {
+    "id": "osm-12828482226",
+    "kind": "osm",
+    "title": "Раскрашенные дупла",
+    "place": "Измайловский лесопарк",
+    "place_basis": "ООПТ «Измайлово» по OSM; «Грибочек» и «Рыбы-клоуны» названы в пресс-релизе 2022 года",
+    "note": "В 6 м — «Пейзаж с горами, планетами, рекой, лесом и домиком» с официальной карты, скорее всего это он.",
+    "osm": "12828482226",
+    "source": "OpenStreetMap",
+    "shown_kind": "osm"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "osm-8044691271",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5651365,
+     55.8999832
+    ]
+   },
+   "properties": {
+    "id": "osm-8044691271",
+    "kind": "check",
+    "title": "Метка «Дерево»",
+    "untitled": "1",
+    "place": "Лианозовский заказник",
+    "place_basis": "границы по OSM",
+    "note": "Арт-объект без типа, в описании одно слово «Дерево». В 2023 году в заказнике рисовали Анастасия Трубицина и Ксения Шмонина.",
+    "osm": "8044691271",
+    "source": "OpenStreetMap",
+    "shown_kind": "check"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "osm-8044691272",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5652143,
+     55.900087
+    ]
+   },
+   "properties": {
+    "id": "osm-8044691272",
+    "kind": "check",
+    "title": "Метка «Дерево»",
+    "untitled": "1",
+    "place": "Лианозовский заказник",
+    "place_basis": "границы по OSM",
+    "note": "Арт-объект без типа, в описании одно слово «Дерево». В 2023 году в заказнике рисовали Анастасия Трубицина и Ксения Шмонина.",
+    "osm": "8044691272",
+    "source": "OpenStreetMap",
+    "shown_kind": "check"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "osm-8044691279",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5657615,
+     55.8996298
+    ]
+   },
+   "properties": {
+    "id": "osm-8044691279",
+    "kind": "check",
+    "title": "Метка без подписи",
+    "untitled": "1",
+    "place": "Лианозовский заказник",
+    "place_basis": "границы по OSM",
+    "note": "Арт-объект без единого тега. В 2023 году в заказнике рисовали Анастасия Трубицина и Ксения Шмонина.",
+    "osm": "8044691279",
+    "source": "OpenStreetMap",
+    "shown_kind": "check"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "osm-8044691280",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5659278,
+     55.8994749
+    ]
+   },
+   "properties": {
+    "id": "osm-8044691280",
+    "kind": "check",
+    "title": "Метка без подписи",
+    "untitled": "1",
+    "place": "Лианозовский заказник",
+    "place_basis": "границы по OSM",
+    "note": "Арт-объект без единого тега. В 2023 году в заказнике рисовали Анастасия Трубицина и Ксения Шмонина.",
+    "osm": "8044691280",
+    "source": "OpenStreetMap",
+    "shown_kind": "check"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "osm-8044691281",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5660324,
+     55.8995697
+    ]
+   },
+   "properties": {
+    "id": "osm-8044691281",
+    "kind": "check",
+    "title": "Метка без подписи",
+    "untitled": "1",
+    "place": "Лианозовский заказник",
+    "place_basis": "границы по OSM",
+    "note": "Арт-объект без единого тега. В 2023 году в заказнике рисовали Анастасия Трубицина и Ксения Шмонина.",
+    "osm": "8044691281",
+    "source": "OpenStreetMap",
+    "shown_kind": "check"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "osm-12774627443",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.8043789,
+     55.7769145
+    ]
+   },
+   "properties": {
+    "id": "osm-12774627443",
+    "kind": "check",
+    "title": "Метка «граффити»",
+    "untitled": "1",
+    "place": "Измайловский лесопарк",
+    "place_basis": "ООПТ «Измайлово» по OSM; «Грибочек» и «Рыбы-клоуны» названы в пресс-релизе 2022 года",
+    "note": "Тип «граффити», без названия. В 9 м — «Лесовичок», рядом рисунки Евгении Хлыниной 2017 года.",
+    "osm": "12774627443",
+    "source": "OpenStreetMap",
+    "shown_kind": "check"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "osm-6522300262",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.7523454,
+     55.7715898
+    ]
+   },
+   "properties": {
+    "id": "osm-6522300262",
+    "kind": "check",
+    "title": "Метка без подписи",
+    "untitled": "1",
+    "place": "Измайловский лесопарк",
+    "place_basis": "ООПТ «Измайлово» по OSM; «Грибочек» и «Рыбы-клоуны» названы в пресс-релизе 2022 года",
+    "note": "Арт-объект без единого тега, в ПКиО «Измайлово».",
+    "osm": "6522300262",
+    "source": "OpenStreetMap",
+    "shown_kind": "check"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "osm-11245448782",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.7974498,
+     55.7365669
+    ]
+   },
+   "properties": {
+    "id": "osm-11245448782",
+    "kind": "check",
+    "title": "Метка «мурал»",
+    "untitled": "1",
+    "place": "Лесопарк «Кусково»",
+    "place_basis": "место по OSM",
+    "note": "В OSM тип «мурал», стоит в лесопарке.",
+    "osm": "11245448782",
+    "source": "OpenStreetMap",
+    "shown_kind": "check"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "osm-11245448783",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.7971043,
+     55.736399
+    ]
+   },
+   "properties": {
+    "id": "osm-11245448783",
+    "kind": "check",
+    "title": "Метка «мурал»",
+    "untitled": "1",
+    "place": "Лесопарк «Кусково»",
+    "place_basis": "место по OSM",
+    "note": "В OSM тип «мурал», стоит в лесопарке.",
+    "osm": "11245448783",
+    "source": "OpenStreetMap",
+    "shown_kind": "check"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "osm-11245448784",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.7970484,
+     55.7362644
+    ]
+   },
+   "properties": {
+    "id": "osm-11245448784",
+    "kind": "check",
+    "title": "Метка «мурал»",
+    "untitled": "1",
+    "place": "Лесопарк «Кусково»",
+    "place_basis": "место по OSM",
+    "note": "В OSM тип «мурал», стоит в лесопарке.",
+    "osm": "11245448784",
+    "source": "OpenStreetMap",
+    "shown_kind": "check"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "osm-11984987913",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.462986,
+     55.6519583
+    ]
+   },
+   "properties": {
+    "id": "osm-11984987913",
+    "kind": "check",
+    "title": "Маг и грибы",
+    "place": "Тропарёвский лесопарк",
+    "place_basis": "место по OSM",
+    "note": "Арт-объект без типа, в описании «Маг и грибы».",
+    "osm": "11984987913",
+    "source": "OpenStreetMap",
+    "shown_kind": "check"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "osm-9167680212",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.6880287,
+     55.8205506
+    ]
+   },
+   "properties": {
+    "id": "osm-9167680212",
+    "kind": "check",
+    "title": "Лицо",
+    "place": "Лосиный остров",
+    "place_basis": "место по OSM",
+    "note": "В OSM — деревянная скульптура на живом дереве. Скорее резьба, чем рисунок.",
+    "osm": "9167680212",
+    "source": "OpenStreetMap",
+    "shown_kind": "check"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "osm-8871991617",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.488775,
+     55.6816888
+    ]
+   },
+   "properties": {
+    "id": "osm-8871991617",
+    "kind": "check",
+    "title": "Метка без подписи",
+    "untitled": "1",
+    "place": "Парк Никулинской аллеи",
+    "place_basis": "место по OSM",
+    "note": "Арт-объект без единого тега.",
+    "osm": "8871991617",
+    "source": "OpenStreetMap",
+    "shown_kind": "check"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "osm-8880487541",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.5751492,
+     55.7572085
+    ]
+   },
+   "properties": {
+    "id": "osm-8880487541",
+    "kind": "check",
+    "title": "Метка без подписи",
+    "untitled": "1",
+    "place": "Пресненский парк",
+    "place_basis": "место по OSM",
+    "note": "Арт-объект без единого тега.",
+    "osm": "8880487541",
+    "source": "OpenStreetMap",
+    "shown_kind": "check"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": "osm-4938974501",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     37.6292785,
+     55.8665349
+    ]
+   },
+   "properties": {
+    "id": "osm-4938974501",
+    "kind": "check",
+    "title": "Метка без подписи",
+    "untitled": "1",
+    "place": "Парк Свиблово",
+    "place_basis": "место по OSM",
+    "note": "Арт-объект без названия, материал — дерево.",
+    "osm": "4938974501",
+    "source": "OpenStreetMap",
+    "shown_kind": "check"
+   }
+  }
+ ]
+}

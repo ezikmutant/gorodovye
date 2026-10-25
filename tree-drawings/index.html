@@ -1,0 +1,352 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Рисунки на деревьях Москвы</title>
+<meta name="description" content="Официальная карта акции «ПаркАрт», рисунки в Филях и метки OpenStreetMap — на одной карте.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Onest:wght@400;500;600&family=Yeseva+One&display=swap">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css">
+<style>
+/* Одна колонка: шапка, карта с карточкой точки (на широком экране — рядом), список по местам, чего не хватает. */
+:root {
+  --bg: #EEF1EA; --surface: #F8FAF5; --ink: #1D231F; --muted: #59625A; --line: #D2D8CC; --map: #E2E7DA;
+  --moss: #3B7838; --violet: #7A4CB3; --blue: #2C6AAE; --amber: #A2660E; --found: #C92A2A; --on-accent: #FFFFFF;
+  --f-display: "Yeseva One", "PT Serif", Georgia, serif;
+  --f-body: "Onest", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --f-mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #131714; --surface: #1B201C; --ink: #E6EAE3; --muted: #9AA39B; --line: #2E362F; --map: #182019;
+    --moss: #7DBE71; --violet: #B897EA; --blue: #7DAEE8; --amber: #E2A748; --found: #FF7B72; --on-accent: #0F1410;
+    color-scheme: dark;
+  }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--bg); color: var(--ink); font-family: var(--f-body); font-size: 15px; line-height: 1.5; }
+a { color: var(--blue); }
+:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
+.wrap {
+  max-width: 1180px; margin: 0 auto; display: grid; gap: 28px;
+  padding-block: max(24px, env(safe-area-inset-top, 0px)) max(64px, env(safe-area-inset-bottom, 0px));
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+header { display: grid; gap: 12px; }
+.eyebrow { font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 0; }
+h1 { font-family: var(--f-display); font-weight: 400; font-size: clamp(32px, 6.4vw, 52px); line-height: 1.04; margin: 0; text-wrap: balance; }
+h2 { font-family: var(--f-display); font-weight: 400; font-size: 26px; line-height: 1.15; margin: 0; text-wrap: balance; }
+.lead { max-width: 66ch; margin: 0; color: var(--muted); }
+.actions { display: flex; flex-wrap: wrap; gap: 10px; }
+.btn { display: inline-flex; align-items: center; gap: 8px; padding: 10px 16px; border-radius: 10px; font-weight: 600; text-decoration: none; font-size: 15px; }
+.btn.primary { background: var(--moss); color: var(--on-accent); }
+.btn.quiet { border: 1px solid var(--line); color: var(--ink); background: var(--surface); font-weight: 500; }
+.counts { display: flex; flex-wrap: wrap; gap: 6px 18px; margin: 0; padding: 0; list-style: none; font-size: 14px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.counts li { display: inline-flex; align-items: center; gap: 8px; }
+.counts b { color: var(--ink); font-weight: 600; }
+
+.dot { width: 12px; height: 12px; border-radius: 50%; display: inline-block; flex: none; }
+.dot.official { background: var(--moss); }
+.dot.fili { background: var(--violet); }
+.dot.osm { background: var(--blue); }
+.dot.check { border: 2px solid var(--amber); }
+.dot.found { background: var(--found); box-shadow: 0 0 0 2px var(--bg), 0 0 0 3.5px var(--found); }
+
+.tools { display: grid; gap: 10px; }
+.chips { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 6px; scrollbar-width: thin; }
+.chip { flex: none; border: 1px solid var(--line); background: var(--surface); color: var(--ink); border-radius: 999px; padding: 6px 12px; font: inherit; font-size: 13px; cursor: pointer; }
+.chip b { font-weight: 500; color: var(--muted); margin-left: 6px; font-variant-numeric: tabular-nums; }
+.legend { display: flex; flex-wrap: wrap; gap: 8px; }
+.toggle { display: inline-flex; align-items: center; gap: 8px; border: 1px solid var(--line); background: transparent; color: var(--ink); border-radius: 999px; padding: 5px 12px 5px 10px; font: inherit; font-size: 13px; cursor: pointer; }
+.toggle[aria-pressed="false"] { color: var(--muted); }
+.toggle[aria-pressed="false"] .dot { opacity: .3; }
+
+.stage { display: grid; gap: 16px; grid-template-columns: minmax(0, 1fr); }
+@media (min-width: 940px) { .stage { grid-template-columns: minmax(0, 1fr) 360px; } }
+.mapbox { position: relative; background: var(--map); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; height: min(68vh, 680px); min-height: 380px; }
+#map { position: absolute; inset: 0; }
+.maplibregl-ctrl-attrib { font-size: 10px; }
+
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 18px; display: grid; gap: 12px; align-content: start; min-width: 0; }
+.card h2 { font-size: 25px; }
+.card p { margin: 0; }
+.card .meta { color: var(--muted); }
+.pill { display: inline-flex; align-items: center; gap: 8px; font-size: 12px; padding: 3px 10px 3px 8px; border-radius: 999px; border: 1px solid var(--line); width: fit-content; }
+.coords { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; font-family: var(--f-mono); font-size: 13px; font-variant-numeric: tabular-nums; }
+.coords code { font: inherit; user-select: all; }
+.links { display: flex; flex-wrap: wrap; gap: 8px; }
+.links a, .copy { border: 1px solid var(--line); padding: 8px 12px; border-radius: 10px; text-decoration: none; color: var(--ink); background: var(--bg); font: inherit; font-size: 14px; cursor: pointer; }
+.links a.main { background: var(--moss); color: var(--on-accent); border-color: transparent; font-weight: 600; }
+.small { font-size: 13px; color: var(--muted); }
+
+.groups { display: grid; gap: 28px 32px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr)); align-items: start; }
+.grp { display: grid; gap: 6px; min-width: 0; }
+.grp h3 { margin: 0; font-size: 17px; font-weight: 600; display: flex; justify-content: space-between; gap: 12px; align-items: baseline; }
+.grp h3 span { font-weight: 500; color: var(--muted); font-size: 14px; font-variant-numeric: tabular-nums; }
+.grp .basis { margin: 0 0 4px; font-size: 12.5px; color: var(--muted); }
+.grp ul { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
+.row { width: 100%; display: grid; grid-template-columns: 14px minmax(0, 1fr); gap: 10px; align-items: baseline; text-align: left; padding: 8px 4px; border: 0; border-bottom: 1px solid var(--line); background: none; color: var(--ink); font: inherit; cursor: pointer; }
+.row .dot { transform: translateY(1px); }
+.row .t { font-weight: 500; }
+.row .m { display: block; font-size: 13px; color: var(--muted); }
+.row[aria-current="true"] { background: var(--map); }
+
+.missing { display: grid; gap: 14px; max-width: 78ch; }
+.missing p { margin: 0; }
+.missing dl { margin: 0; display: grid; gap: 12px; }
+.missing dt { font-weight: 600; }
+.missing dd { margin: 2px 0 0; color: var(--muted); }
+.sources { display: grid; gap: 10px; font-size: 14px; }
+.sources ul { margin: 0; padding-left: 18px; display: grid; gap: 4px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <p class="eyebrow">ПаркАрт · Фили · OpenStreetMap</p>
+    <h1>Рисунки на деревьях Москвы</h1>
+    <p class="lead">Официальная карта акции «ПаркАрт» (Мосприрода, три версии 2022 года), рисунки Марины Кочневой в парке Фили и метки арт-объектов из OpenStreetMap посреди парков и лесов. Оранжевые кружки — метки, которые надо проверить на месте: часто это и есть рисунок.</p>
+    <div class="actions">
+      <a class="btn primary" href="tree-drawings-moscow.kml" download>Скачать для Organic Maps</a>
+      <a class="btn quiet" href="https://yandex.ru/maps/?um=constructor%3A35ee50ff35841fd2d512dc0a5475fa0f27b50e254b42a5c91761a32bdb965c2c&amp;source=constructorLink" target="_blank" rel="noopener">Официальная карта ↗</a>
+      <a class="btn quiet" href="points.csv">Таблица точек</a>
+    </div>
+    <ul class="counts" id="counts"></ul>
+  </header>
+
+  <section class="tools" aria-label="Навигация по карте">
+    <div class="chips" id="chips"></div>
+    <div class="legend" id="legend"></div>
+  </section>
+
+  <section class="stage">
+    <div class="mapbox"><div id="map" role="region" aria-label="Карта рисунков на деревьях"></div></div>
+    <article class="card" id="card" aria-live="polite"><p class="small">Загружаю точки…</p></article>
+  </section>
+
+  <section style="display:grid;gap:18px">
+    <h2>Все точки по местам</h2>
+    <div class="groups" id="groups"></div>
+  </section>
+
+  <section class="missing">
+    <h2>Чего нет ни на одной карте</h2>
+    <p>Официальная карта не обновлялась с октября 2022 года. Только в 2023 году Мосприрода насчитала больше 90 новых рисунков, и их координат нигде нет. По новостям известно, где их искать:</p>
+    <dl>
+      <div><dt>Царицыно — 15 рисунков 2023 года</dt><dd>Все пятнадцать нарисовала Наталья Прохорова: божьи коровки, птичка-невеличка, большеглазая сова, бельчонок, «танцующий свет», «дыхание ветра».</dd></div>
+      <div><dt>Москворецкий — 15</dt><dd>Пять у Александры Семёновой, четыре у Мелании Прохоровой, остальные авторы не названы.</dd></div>
+      <div><dt>Битцевский лес — 14</dt><dd>Мышиная семья, совёнок, летучая мышь (животное 2023 года).</dd></div>
+      <div><dt>Лианозовский заказник — 8</dt><dd>Анастасия Трубицина: «Дельфин», «Павлин», «Мак», «Сова», «Черепашки», «Домик». Ксения Шмонина: «Цыплёнок», «Поле». Пять меток OSM в заказнике без подписи — первые кандидаты.</dd></div>
+      <div><dt>Кузьминки-Люблино</dt><dd>«Каникулы лягушонка» и «Сатурн» из серии «Космос» Ирины Симаковой.</dd></div>
+      <div><dt>Покровское-Стрешнево, Серебряный бор, Битцевский лес</dt><dd>Четырнадцать работ Екатерины Кожевниковой за 2022–2023 годы: «Лебединое озеро», «Маяк», «Маленький принц», «Воздушные шары», «Окно в космос». Часть из них в Битце уже есть на официальной карте.</dd></div>
+      <div><dt>Красная Пресня</dt><dd>Шесть работ Евгении Хлыниной: Маленький принц, Ёжик в тумане, эльфы. Фотографии она выкладывает <a href="https://vk.com/id93847919" target="_blank" rel="noopener">во ВКонтакте</a>.</dd></div>
+    </dl>
+  </section>
+
+  <section class="sources">
+    <h2>Источники</h2>
+    <ul>
+      <li><a href="https://yandex.ru/maps/?um=constructor%3A35ee50ff35841fd2d512dc0a5475fa0f27b50e254b42a5c91761a32bdb965c2c&amp;source=constructorLink" target="_blank" rel="noopener">Официальная карта ПаркАрт, октябрь 2022</a>; ранние версии: <a href="https://yandex.ru/maps/?um=constructor%3A8604de361032005efbab5c95976eedaa43539cc0fcd686ee3e44efad4449f5d8&amp;source=constructorLink" target="_blank" rel="noopener">июнь</a> и <a href="https://yandex.ru/maps/?um=constructor%3A9dd1d5a2fc182b8d14ffc34ba57264b8e085b5dacbabdf531b2ddbe332e07c84&amp;source=constructorLink" target="_blank" rel="noopener">август 2022</a>. Ссылки на них нашлись в копиях страницы акции в <a href="https://web.archive.org/web/20240614164042/https://mospriroda.ru/what_to_do/aktsii-i-proekty/parkart/" target="_blank" rel="noopener">веб-архиве</a>: сам сайт Мосприроды отдаёт пустую страницу.</li>
+      <li><a href="https://am.epishkin.com/fili" target="_blank" rel="noopener">Рисунки на деревьях в парке Фили</a>, About #Moscow, 2021.</li>
+      <li>OpenStreetMap: арт-объекты (<code>tourism=artwork</code>) внутри парков и лесов Москвы, отобраны вручную из 602 меток. Подложка — <a href="https://openfreemap.org/" target="_blank" rel="noopener">OpenFreeMap</a>, как в «Городовых».</li>
+      <li>Мосприрода, итоги сезона 17.11.2023 (<a href="https://web.archive.org/web/2024/https://mospriroda.ru/press_center/zavershilsya_vosmoy_sezon_prirodookhrannoy_aktsii_parkart_podarivshey_istselenie_bolee_320_derevyam_/" target="_blank" rel="noopener">в веб-архиве</a>); mos.ru: <a href="https://www.mos.ru/news/item/81990073/" target="_blank" rel="noopener">31.10.2020</a>, <a href="https://www.mos.ru/news/item/109221073/" target="_blank" rel="noopener">30.06.2022</a>, <a href="https://www.mos.ru/news/item/127918073/" target="_blank" rel="noopener">11.08.2023</a>, <a href="https://www.mos.ru/news/item/132239073/" target="_blank" rel="noopener">17.11.2023</a>.</li>
+      <li><a href="https://mel.fm/novosti/3746509-khudozhnitsa-risuyet-na-derevyakh-v-parkakh-moskvy-skazochnykh-personazhey" target="_blank" rel="noopener">Мел: о Евгении Хлыниной</a>.</li>
+    </ul>
+  </section>
+</div>
+
+<script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script>
+const KIND = {
+  found: "Найден на месте",
+  official: "Официальная карта ПаркАрт",
+  fili: "Карта Филей",
+  osm: "Рисунок по OSM",
+  check: "Метка OSM — проверить"
+};
+const OTHER = "Место не подписано";
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const label = p => p.untitled ? esc(p.title) : "«" + esc(p.title) + "»";
+const metres = (a, b, c, d) => Math.hypot((a - c) * 111320, (b - d) * 111320 * Math.cos(a * Math.PI / 180));
+const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+const show = { official: true, fili: true, osm: true, check: true };
+let P = [], byId = new Map(), selected = null, map;
+
+fetch("points.geojson")
+  .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+  .then(start)
+  .catch(() => {
+    document.getElementById("card").innerHTML =
+      '<p>Не удалось загрузить points.geojson. Страницу нужно открывать с сервера (GitHub Pages), а не как файл с диска.</p>';
+  });
+
+function start(gj) {
+  P = gj.features.map(f => ({ ...f.properties, lon: f.geometry.coordinates[0], lat: f.geometry.coordinates[1] }));
+  byId = new Map(P.map(p => [p.id, p]));
+  drawCounts();
+  drawList();
+  drawLegend();
+  drawMap(gj);
+}
+
+function drawCounts() {
+  const n = k => P.filter(p => p.shown_kind === k).length;
+  document.getElementById("counts").innerHTML = [
+    ["official", n("official") + n("found"), "по официальной карте"],
+    ["fili", n("fili"), "в Филях"],
+    ["osm", n("osm"), "рисунков по OSM"],
+    ["check", n("check"), "меток OSM проверить"],
+    ["found", n("found"), "найдено на месте"]
+  ].map(([k, c, t]) => `<li><span class="dot ${k}"></span><span><b>${c}</b> ${t}</span></li>`).join("");
+}
+
+function groups() {
+  const g = new Map();
+  for (const p of P) {
+    if (!g.has(p.place)) g.set(p.place, { name: p.place, basis: p.place_basis, pts: [] });
+    g.get(p.place).pts.push(p);
+  }
+  const order = { found: 0, official: 1, fili: 2, osm: 3, check: 4 };
+  const list = [...g.values()].sort((a, b) => (a.name === OTHER) - (b.name === OTHER) || b.pts.length - a.pts.length);
+  list.forEach(x => x.pts.sort((a, b) => order[a.shown_kind] - order[b.shown_kind] || (b.year || 0) - (a.year || 0)));
+  return list;
+}
+
+function drawList() {
+  const G = groups();
+  const chips = document.getElementById("chips");
+  const add = (text, count, pts) => {
+    const b = document.createElement("button");
+    b.className = "chip"; b.type = "button"; b.innerHTML = `${esc(text)}<b>${count}</b>`;
+    b.onclick = () => fit(pts);
+    chips.appendChild(b);
+  };
+  add("Вся Москва", P.length, P);
+  G.forEach(g => add(g.name, g.pts.length, g.pts));
+  const el = document.getElementById("groups");
+  el.innerHTML = G.map(g => `<section class="grp"><h3>${esc(g.name)}<span>${g.pts.length}</span></h3><p class="basis">${esc(g.basis)}</p><ul>${
+    g.pts.map(p => `<li><button class="row" type="button" data-id="${p.id}" data-kind="${p.kind}"><span class="dot ${p.shown_kind}"></span><span><span class="t">${label(p)}</span><span class="m">${[p.author, p.year].filter(Boolean).map(esc).join(", ") || KIND[p.kind]}</span></span></button></li>`).join("")
+  }</ul></section>`).join("");
+  el.addEventListener("click", e => {
+    const b = e.target.closest(".row");
+    if (!b) return;
+    select(byId.get(b.dataset.id), true);
+    document.querySelector(".stage").scrollIntoView({ behavior: reduce ? "auto" : "smooth", block: "start" });
+  });
+}
+
+function drawLegend() {
+  const legend = document.getElementById("legend");
+  for (const k of ["official", "fili", "osm", "check"]) {
+    const b = document.createElement("button");
+    b.className = "toggle"; b.type = "button"; b.setAttribute("aria-pressed", "true");
+    b.innerHTML = `<span class="dot ${k}"></span>${KIND[k]}`;
+    b.onclick = () => {
+      show[k] = !show[k];
+      b.setAttribute("aria-pressed", String(show[k]));
+      document.querySelectorAll(`.row[data-kind="${k}"]`).forEach(r => (r.closest("li").hidden = !show[k]));
+      applyFilter();
+    };
+    legend.appendChild(b);
+  }
+}
+
+function kindFilter() {
+  return ["in", ["get", "kind"], ["literal", Object.keys(show).filter(k => show[k])]];
+}
+function applyFilter() {
+  if (!map || !map.getLayer("pts")) return;
+  map.setFilter("pts", ["all", ["!=", ["get", "kind"], "check"], kindFilter()]);
+  map.setFilter("pts-check", ["all", ["==", ["get", "kind"], "check"], kindFilter()]);
+  map.setFilter("pts-label", kindFilter());
+}
+
+function drawMap(gj) {
+  map = new maplibregl.Map({
+    container: "map",
+    style: "https://tiles.openfreemap.org/styles/liberty",
+    center: [37.62, 55.76], zoom: 9.3, maxZoom: 19.5,
+    attributionControl: { compact: true }
+  });
+  map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-right");
+  map.addControl(new maplibregl.GeolocateControl({ positionOptions: { enableHighAccuracy: true }, trackUserLocation: true }), "top-right");
+  map.on("load", () => {
+    map.addSource("pts", { type: "geojson", data: gj, promoteId: "id" });
+    const color = ["match", ["get", "shown_kind"],
+      "found", css("--found"), "official", css("--moss"), "fili", css("--violet"), "osm", css("--blue"), "#888"];
+    map.addLayer({ id: "sel", type: "circle", source: "pts", filter: ["==", ["get", "id"], ""],
+      paint: { "circle-radius": 14, "circle-color": "rgba(0,0,0,0)", "circle-stroke-width": 3, "circle-stroke-color": "#1D231F" } });
+    map.addLayer({ id: "pts-check", type: "circle", source: "pts", filter: ["==", ["get", "kind"], "check"],
+      paint: { "circle-radius": ["interpolate", ["linear"], ["zoom"], 9, 4, 16, 8], "circle-color": "#FFFFFF",
+        "circle-stroke-width": 2.5, "circle-stroke-color": css("--amber") } });
+    map.addLayer({ id: "pts", type: "circle", source: "pts", filter: ["!=", ["get", "kind"], "check"],
+      paint: { "circle-radius": ["interpolate", ["linear"], ["zoom"], 9, 4, 16, 8], "circle-color": color,
+        "circle-stroke-width": ["match", ["get", "shown_kind"], "found", 3, 1.5], "circle-stroke-color": "#FFFFFF" } });
+    map.addLayer({ id: "pts-label", type: "symbol", source: "pts", minzoom: 15.5,
+      layout: { "text-field": ["get", "title"], "text-font": ["Noto Sans Regular"], "text-size": 12,
+        "text-offset": [0, 1.2], "text-anchor": "top", "text-max-width": 9, "text-optional": true },
+      paint: { "text-color": "#1D231F", "text-halo-color": "#FFFFFF", "text-halo-width": 1.5 } });
+    for (const id of ["pts", "pts-check"]) {
+      map.on("click", id, e => select(byId.get(e.features[0].properties.id), false));
+      map.on("mouseenter", id, () => (map.getCanvas().style.cursor = "pointer"));
+      map.on("mouseleave", id, () => (map.getCanvas().style.cursor = ""));
+    }
+    const fromHash = byId.get(decodeURIComponent(location.hash.slice(1)));
+    if (fromHash) select(fromHash, true);
+    else { fit(P, false); select(P.find(p => p.found) || P[0], false); }
+  });
+}
+
+function fit(pts, animate = true) {
+  if (!map) return;
+  const b = new maplibregl.LngLatBounds();
+  pts.forEach(p => b.extend([p.lon, p.lat]));
+  map.fitBounds(b, { padding: 48, maxZoom: 17, animate: animate && !reduce });
+}
+
+function cardHTML(p) {
+  const k = p.shown_kind;
+  const meta = [p.author, p.year].filter(Boolean).map(esc).join(", ");
+  const near = P.filter(q => q !== p && metres(p.lat, p.lon, q.lat, q.lon) < 15);
+  let h = `<span class="pill"><span class="dot ${k}"></span>${KIND[k]}</span>`;
+  h += `<h2>${label(p)}</h2>`;
+  if (meta) h += `<p class="meta">${meta}</p>`;
+  h += `<p><b>${esc(p.place)}</b></p>`;
+  if (p.note) h += `<p>${esc(p.note)}</p>`;
+  if (near.length) h += `<p class="small">Здесь же, ближе 15 м: ${near.map(label).join(", ")}.</p>`;
+  h += `<div class="coords"><code id="co">${p.lat}, ${p.lon}</code><button class="copy" type="button" id="cp">Скопировать</button></div>`;
+  if (p.official_lat) h += `<p class="small">По официальной карте: ${p.official_lat}, ${p.official_lon}</p>`;
+  h += `<div class="links"><a class="main" href="https://yandex.ru/maps/?pt=${p.lon},${p.lat},pm2gnm&z=18&l=map" target="_blank" rel="noopener">Яндекс Карты ↗</a>`;
+  h += `<a href="https://www.openstreetmap.org/?mlat=${p.lat}&mlon=${p.lon}#map=19/${p.lat}/${p.lon}" target="_blank" rel="noopener">OpenStreetMap ↗</a>`;
+  if (p.osm) h += `<a href="https://www.openstreetmap.org/node/${p.osm}" target="_blank" rel="noopener">Метка в OSM ↗</a>`;
+  h += `</div><p class="small">Источник: ${esc(p.source)} · <a href="#${p.id}">ссылка на точку</a></p>`;
+  return h;
+}
+
+function select(p, fly) {
+  if (!p) return;
+  selected = p;
+  const card = document.getElementById("card");
+  card.innerHTML = cardHTML(p);
+  const cp = document.getElementById("cp");
+  cp.onclick = () => {
+    const co = document.getElementById("co");
+    const done = () => { cp.textContent = "Скопировано"; setTimeout(() => (cp.textContent = "Скопировать"), 1600); };
+    const fallback = () => { const r = document.createRange(); r.selectNodeContents(co); const s = getSelection(); s.removeAllRanges(); s.addRange(r); cp.textContent = "Выделено"; };
+    try { navigator.clipboard.writeText(co.textContent).then(done, fallback); } catch (_) { fallback(); }
+  };
+  document.querySelectorAll(".row").forEach(b => b.setAttribute("aria-current", b.dataset.id === p.id ? "true" : "false"));
+  if (map && map.getLayer("sel")) map.setFilter("sel", ["==", ["get", "id"], p.id]);
+  history.replaceState(null, "", "#" + p.id);
+  if (fly && map) map.flyTo({ center: [p.lon, p.lat], zoom: Math.max(map.getZoom(), 17), animate: !reduce });
+}
+</script>
+</body>
+</html>

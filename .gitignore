@@ -16,6 +16,12 @@
 !/app/
 !/ds/
 
+# Карта рисунков на деревьях — отдельная страница на GitHub Pages
+# (tree-drawings/README.md). `.nojekyll` — чтобы Pages отдавал файлы как есть,
+# а не собирал из markdown сайт.
+!/tree-drawings/
+!/.nojekyll
+
 # Внутри app своё правило (app/.gitignore); здесь — то же самое ещё раз,
 # чтобы сборка не уехала, даже если корневой список поменяют.
 /app/build/
