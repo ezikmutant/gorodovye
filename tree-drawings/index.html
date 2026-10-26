@@ -14,6 +14,7 @@
 :root {
   --bg: #EEF1EA; --surface: #F8FAF5; --ink: #1D231F; --muted: #59625A; --line: #D2D8CC; --map: #E2E7DA;
   --moss: #3B7838; --violet: #7A4CB3; --blue: #2C6AAE; --amber: #A2660E; --found: #C92A2A; --on-accent: #FFFFFF;
+  --grey: #9AA19A; --green: #3FA535; --dark: #4A504B;
   --f-display: "Yeseva One", "PT Serif", Georgia, serif;
   --f-body: "Onest", "Segoe UI", system-ui, -apple-system, sans-serif;
   --f-mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
@@ -23,6 +24,7 @@
   :root {
     --bg: #131714; --surface: #1B201C; --ink: #E6EAE3; --muted: #9AA39B; --line: #2E362F; --map: #182019;
     --moss: #7DBE71; --violet: #B897EA; --blue: #7DAEE8; --amber: #E2A748; --found: #FF7B72; --on-accent: #0F1410;
+    --grey: #8C948D; --green: #6BD35F; --dark: #5E655F;
     color-scheme: dark;
   }
 }
@@ -51,7 +53,9 @@ h2 { font-family: var(--f-display); font-weight: 400; font-size: 26px; line-heig
 .counts b { color: var(--ink); font-weight: 600; }
 
 .dot { width: 12px; height: 12px; border-radius: 50%; display: inline-block; flex: none; }
-.dot.official { background: var(--moss); }
+.dot.official { background: var(--grey); }
+.dot.confirmed { background: var(--green); }
+.dot.missing { background: var(--dark); }
 .dot.fili { background: var(--violet); }
 .dot.osm { background: var(--blue); }
 .dot.check { border: 2px solid var(--amber); }
@@ -110,7 +114,7 @@ h2 { font-family: var(--f-display); font-weight: 400; font-size: 26px; line-heig
   <header>
     <p class="eyebrow">ПаркАрт · Фили · OpenStreetMap</p>
     <h1>Рисунки на деревьях Москвы</h1>
-    <p class="lead">Официальная карта акции «ПаркАрт» (Мосприрода, три версии 2022 года), рисунки Марины Кочневой в парке Фили и метки арт-объектов из OpenStreetMap посреди парков и лесов. Оранжевые кружки — метки, которые надо проверить на месте: часто это и есть рисунок.</p>
+    <p class="lead">Официальная карта акции «ПаркАрт» (Мосприрода, три версии 2022 года), рисунки Марины Кочневой в парке Фили, метки арт-объектов из OpenStreetMap и места с Яндекс Карт. Серые точки официальной карты не проверены: часть не нашлась на месте, часть координат сбита. Оранжевые — метки, которые надо проверить. Зелёные области — парки, где проходила акция.</p>
     <div class="actions">
       <a class="btn primary" href="tree-drawings-moscow.kml" download>Скачать для Organic Maps</a>
       <a class="btn quiet" href="https://yandex.ru/maps/?um=constructor%3A35ee50ff35841fd2d512dc0a5475fa0f27b50e254b42a5c91761a32bdb965c2c&amp;source=constructorLink" target="_blank" rel="noopener">Официальная карта ↗</a>
@@ -164,10 +168,12 @@ h2 { font-family: var(--f-display); font-weight: 400; font-size: 26px; line-heig
 <script>
 const KIND = {
   found: "Найден на месте",
-  official: "Официальная карта ПаркАрт",
+  confirmed: "Виден на фото в Яндекс Картах",
+  official: "Официальная карта ПаркАрт, не проверено",
   fili: "Карта Филей",
   osm: "Рисунок по OSM",
-  check: "Метка OSM — проверить"
+  check: "Метка без подтверждения — проверить",
+  missing: "Не найден на месте"
 };
 const OTHER = "Место не подписано";
 const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
@@ -176,7 +182,7 @@ const metres = (a, b, c, d) => Math.hypot((a - c) * 111320, (b - d) * 111320 * M
 const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
 const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-const show = { official: true, fili: true, osm: true, check: true };
+const show = { found: true, confirmed: true, official: true, fili: true, osm: true, check: true, missing: true };
 let P = [], byId = new Map(), selected = null, map;
 
 fetch("points.geojson")
@@ -199,11 +205,13 @@ function start(gj) {
 function drawCounts() {
   const n = k => P.filter(p => p.shown_kind === k).length;
   document.getElementById("counts").innerHTML = [
-    ["official", n("official") + n("found"), "по официальной карте"],
+    ["found", n("found"), "найдено на месте"],
+    ["confirmed", n("confirmed"), "видно на фото в Яндекс Картах"],
+    ["official", n("official"), "по официальной карте, не проверено"],
     ["fili", n("fili"), "в Филях"],
     ["osm", n("osm"), "рисунков по OSM"],
-    ["check", n("check"), "меток OSM проверить"],
-    ["found", n("found"), "найдено на месте"]
+    ["check", n("check"), "проверить"],
+    ["missing", n("missing"), "не найдено на месте"]
   ].map(([k, c, t]) => `<li><span class="dot ${k}"></span><span><b>${c}</b> ${t}</span></li>`).join("");
 }
 
@@ -232,7 +240,7 @@ function drawList() {
   G.forEach(g => add(g.name, g.pts.length, g.pts));
   const el = document.getElementById("groups");
   el.innerHTML = G.map(g => `<section class="grp"><h3>${esc(g.name)}<span>${g.pts.length}</span></h3><p class="basis">${esc(g.basis)}</p><ul>${
-    g.pts.map(p => `<li><button class="row" type="button" data-id="${p.id}" data-kind="${p.kind}"><span class="dot ${p.shown_kind}"></span><span><span class="t">${label(p)}</span><span class="m">${[p.author, p.year].filter(Boolean).map(esc).join(", ") || KIND[p.kind]}</span></span></button></li>`).join("")
+    g.pts.map(p => `<li><button class="row" type="button" data-id="${p.id}" data-kind="${p.shown_kind}"><span class="dot ${p.shown_kind}"></span><span><span class="t">${label(p)}</span><span class="m">${[p.author, p.year].filter(Boolean).map(esc).join(", ") || KIND[p.shown_kind]}</span></span></button></li>`).join("")
   }</ul></section>`).join("");
   el.addEventListener("click", e => {
     const b = e.target.closest(".row");
@@ -244,7 +252,7 @@ function drawList() {
 
 function drawLegend() {
   const legend = document.getElementById("legend");
-  for (const k of ["official", "fili", "osm", "check"]) {
+  for (const k of Object.keys(KIND)) {
     const b = document.createElement("button");
     b.className = "toggle"; b.type = "button"; b.setAttribute("aria-pressed", "true");
     b.innerHTML = `<span class="dot ${k}"></span>${KIND[k]}`;
@@ -259,13 +267,20 @@ function drawLegend() {
 }
 
 function kindFilter() {
-  return ["in", ["get", "kind"], ["literal", Object.keys(show).filter(k => show[k])]];
+  return ["in", ["get", "shown_kind"], ["literal", Object.keys(show).filter(k => show[k])]];
 }
 function applyFilter() {
   if (!map || !map.getLayer("pts")) return;
-  map.setFilter("pts", ["all", ["!=", ["get", "kind"], "check"], kindFilter()]);
-  map.setFilter("pts-check", ["all", ["==", ["get", "kind"], "check"], kindFilter()]);
+  map.setFilter("pts", ["all", ["!=", ["get", "shown_kind"], "check"], kindFilter()]);
+  map.setFilter("pts-check", ["all", ["==", ["get", "shown_kind"], "check"], kindFilter()]);
   map.setFilter("pts-label", kindFilter());
+}
+
+function showTerritory(t) {
+  document.getElementById("card").innerHTML =
+    `<span class="pill">Территория акции</span><h2>${esc(t.name)}</h2><p class="meta">ПаркАрт, ${esc(t.years)}</p>` +
+    (t.note ? `<p>${esc(t.note)}</p>` : "") +
+    `<p class="small">${t.approx ? "Границы примерные." : "Границы — из OpenStreetMap."} Точки рисунков — на карте поверх области, если они известны.</p>`;
 }
 
 function drawMap(gj) {
@@ -280,13 +295,25 @@ function drawMap(gj) {
   map.on("load", () => {
     map.addSource("pts", { type: "geojson", data: gj, promoteId: "id" });
     const color = ["match", ["get", "shown_kind"],
-      "found", css("--found"), "official", css("--moss"), "fili", css("--violet"), "osm", css("--blue"), "#888"];
+      "found", css("--found"), "confirmed", css("--green"), "official", css("--grey"), "fili", css("--violet"),
+      "osm", css("--blue"), "missing", css("--dark"), "#888"];
+    fetch("territories.geojson").then(r => r.json()).then(t => {
+      map.addSource("terr", { type: "geojson", data: t });
+      map.addLayer({ id: "terr-fill", type: "fill", source: "terr",
+        paint: { "fill-color": "#56db40", "fill-opacity": 0.13 } }, "sel");
+      map.addLayer({ id: "terr-line", type: "line", source: "terr",
+        paint: { "line-color": "#1bad03", "line-width": 1.5, "line-opacity": 0.7 } }, "sel");
+      map.on("click", "terr-fill", e => {
+        if (map.queryRenderedFeatures(e.point, { layers: ["pts", "pts-check"] }).length) return;
+        showTerritory(e.features[0].properties);
+      });
+    }).catch(() => {});
     map.addLayer({ id: "sel", type: "circle", source: "pts", filter: ["==", ["get", "id"], ""],
       paint: { "circle-radius": 14, "circle-color": "rgba(0,0,0,0)", "circle-stroke-width": 3, "circle-stroke-color": "#1D231F" } });
-    map.addLayer({ id: "pts-check", type: "circle", source: "pts", filter: ["==", ["get", "kind"], "check"],
+    map.addLayer({ id: "pts-check", type: "circle", source: "pts", filter: ["==", ["get", "shown_kind"], "check"],
       paint: { "circle-radius": ["interpolate", ["linear"], ["zoom"], 9, 4, 16, 8], "circle-color": "#FFFFFF",
         "circle-stroke-width": 2.5, "circle-stroke-color": css("--amber") } });
-    map.addLayer({ id: "pts", type: "circle", source: "pts", filter: ["!=", ["get", "kind"], "check"],
+    map.addLayer({ id: "pts", type: "circle", source: "pts", filter: ["!=", ["get", "shown_kind"], "check"],
       paint: { "circle-radius": ["interpolate", ["linear"], ["zoom"], 9, 4, 16, 8], "circle-color": color,
         "circle-stroke-width": ["match", ["get", "shown_kind"], "found", 3, 1.5], "circle-stroke-color": "#FFFFFF" } });
     map.addLayer({ id: "pts-label", type: "symbol", source: "pts", minzoom: 15.5,
@@ -320,11 +347,14 @@ function cardHTML(p) {
   if (meta) h += `<p class="meta">${meta}</p>`;
   h += `<p><b>${esc(p.place)}</b></p>`;
   if (p.note) h += `<p>${esc(p.note)}</p>`;
+  if (p.field_note) h += `<p>${esc(p.field_note)}</p>`;
+  if (p.status_note) h += `<p class="small">${esc(p.status_note)}</p>`;
   if (near.length) h += `<p class="small">Здесь же, ближе 15 м: ${near.map(label).join(", ")}.</p>`;
   h += `<div class="coords"><code id="co">${p.lat}, ${p.lon}</code><button class="copy" type="button" id="cp">Скопировать</button></div>`;
   if (p.official_lat) h += `<p class="small">По официальной карте: ${p.official_lat}, ${p.official_lon}</p>`;
   h += `<div class="links"><a class="main" href="https://yandex.ru/maps/?pt=${p.lon},${p.lat},pm2gnm&z=18&l=map" target="_blank" rel="noopener">Яндекс Карты ↗</a>`;
   h += `<a href="https://www.openstreetmap.org/?mlat=${p.lat}&mlon=${p.lon}#map=19/${p.lat}/${p.lon}" target="_blank" rel="noopener">OpenStreetMap ↗</a>`;
+  if (p.yandex) h += `<a href="https://yandex.ru/maps/org/${p.yandex}/" target="_blank" rel="noopener">Место на Яндекс Картах ↗</a>`;
   if (p.osm) h += `<a href="https://www.openstreetmap.org/node/${p.osm}" target="_blank" rel="noopener">Метка в OSM ↗</a>`;
   h += `</div><p class="small">Источник: ${esc(p.source)} · <a href="#${p.id}">ссылка на точку</a></p>`;
   return h;
